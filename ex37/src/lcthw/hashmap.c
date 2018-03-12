@@ -40,8 +40,8 @@ Hashmap *Hashmap_create(Hashmap_compare compare, Hashmap_hash hash)
 	map->compare = compare == NULL ? default_compare : compare;
 	map->hash = hash == NULL ? default_hash : hash;
 	map->buckets = DArray_create(sizeof(DArray *), DEFAULT_NUMBER_OF_BUCKETS);
-	map->buckets->end = map->buckets->max; // fake out expanding it
 	check_mem(map->buckets);
+	map->buckets->end = map->buckets->max; // fake out expanding it
 	
 	return map;
 error:
@@ -182,7 +182,7 @@ int Hashmap_traverse(Hashmap * map, Hashmap_traverse_cb traverse_cb)
 	for (i = 0; i < DArray_count(map->buckets); i++) {
 		DArray *bucket = DArray_get(map->buckets, i);
 		if(bucket) {
-			for(j = 0; j <= DArray_count(bucket); j++) {
+			for(j = 0; j < DArray_count(bucket); j++) {
 				HashmapNode *node = DArray_get(bucket, j);
 				rc = traverse_cb(node);
 				if(rc != 0)
@@ -198,7 +198,7 @@ void *Hashmap_delete(Hashmap * map, void *key)
 {
 	uint32_t hash = 0;
 	DArray *bucket = Hashmap_find_bucket(map, key, 0, &hash);
-	if(bucket)
+	if(!bucket)
 		return NULL;
 
 	int i = Hashmap_get_node(map, hash, bucket, key);
@@ -207,6 +207,7 @@ void *Hashmap_delete(Hashmap * map, void *key)
 
 	HashmapNode *node = DArray_get(bucket, i);
 	void *data = node->data;
+	//free(node);
 
 	HashmapNode *ending = DArray_pop(bucket);
 
