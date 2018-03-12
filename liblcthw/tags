@@ -1,0 +1,788 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALGO_ADLER32	tests/hashmap_algos_tests.c	/^enum { ALGO_FNV1A, ALGO_ADLER32, ALGO_DJB };$/;"	e	enum:__anon3	file:
+ALGO_DJB	tests/hashmap_algos_tests.c	/^enum { ALGO_FNV1A, ALGO_ADLER32, ALGO_DJB };$/;"	e	enum:__anon3	file:
+ALGO_FNV1A	tests/hashmap_algos_tests.c	/^enum { ALGO_FNV1A, ALGO_ADLER32, ALGO_DJB };$/;"	e	enum:__anon3	file:
+ALPHA	tests/string_algos_tests.c	/^struct tagbstring ALPHA = bsStatic("ALPHA");$/;"	v	typeref:struct:tagbstring
+BSSSC_BUFF_LEN	src/lcthw/bstrlib.c	2290;"	d	file:
+BSTRLIB_INCLUDE	src/lcthw/bstrlib.h	16;"	d
+BSTRLIB_NOVSNP	src/lcthw/bstrlib.c	2744;"	d	file:
+BSTRLIB_NOVSNP	src/lcthw/bstrlib.h	29;"	d
+BSTR_BS_BUFF_LENGTH_GET	src/lcthw/bstrlib.h	35;"	d
+BSTR_ERR	src/lcthw/bstrlib.h	33;"	d
+BSTR_OK	src/lcthw/bstrlib.h	34;"	d
+BSTree	src/lcthw/bstree.h	/^typedef struct BSTree {$/;"	s
+BSTree	src/lcthw/bstree.h	/^} BSTree;$/;"	t	typeref:struct:BSTree
+BSTreeNode	src/lcthw/bstree.h	/^typedef struct BSTreeNode {$/;"	s
+BSTreeNode	src/lcthw/bstree.h	/^} BSTreeNode;$/;"	t	typeref:struct:BSTreeNode
+BSTreeNode_create	src/lcthw/bstree.c	/^static inline BSTreeNode *BSTreeNode_create(BSTreeNode * parent,$/;"	f	file:
+BSTree_compare	src/lcthw/bstree.h	/^typedef int (*BSTree_compare) (void *a, void *b);$/;"	t
+BSTree_create	src/lcthw/bstree.c	/^BSTree *BSTree_create(BSTree_compare compare)$/;"	f
+BSTree_delete	src/lcthw/bstree.c	/^void *BSTree_delete(BSTree * map, void *key)$/;"	f
+BSTree_destroy	src/lcthw/bstree.c	/^void BSTree_destroy(BSTree * map)$/;"	f
+BSTree_destroy_cb	src/lcthw/bstree.c	/^static int BSTree_destroy_cb(BSTreeNode * node)$/;"	f	file:
+BSTree_find_min	src/lcthw/bstree.c	/^static inline BSTreeNode *BSTree_find_min(BSTreeNode * node)$/;"	f	file:
+BSTree_get	src/lcthw/bstree.c	/^void *BSTree_get(BSTree * map, void *key)$/;"	f
+BSTree_getnode	src/lcthw/bstree.c	/^static inline BSTreeNode *BSTree_getnode(BSTree * map,$/;"	f	file:
+BSTree_node_delete	src/lcthw/bstree.c	/^static inline BSTreeNode *BSTree_node_delete(BSTree * map,$/;"	f	file:
+BSTree_replace_node_in_parent	src/lcthw/bstree.c	/^static inline void BSTree_replace_node_in_parent(BSTree * map,$/;"	f	file:
+BSTree_set	src/lcthw/bstree.c	/^int BSTree_set(BSTree * map, void *key, void *data)$/;"	f
+BSTree_setnode	src/lcthw/bstree.c	/^static inline void BSTree_setnode(BSTree * map, BSTreeNode * node,$/;"	f	file:
+BSTree_swap	src/lcthw/bstree.c	/^static inline void BSTree_swap(BSTreeNode * a, BSTreeNode * b)$/;"	f	file:
+BSTree_traverse	src/lcthw/bstree.c	/^int BSTree_traverse(BSTree * map, BSTree_traverse_cb traverse_cb)$/;"	f
+BSTree_traverse_cb	src/lcthw/bstree.h	/^typedef int (*BSTree_traverse_cb) (BSTreeNode * node);$/;"	t
+BSTree_traverse_nodes	src/lcthw/bstree.c	/^static inline int BSTree_traverse_nodes(BSTreeNode * node,$/;"	f	file:
+BS_BUFF_SZ	src/lcthw/bstrlib.c	1772;"	d	file:
+BUCKETS	tests/hashmap_algos_tests.c	53;"	d	file:
+BUFFER_LEN	tests/hashmap_algos_tests.c	54;"	d	file:
+ByteOf	src/lcthw/radixmap.c	39;"	d	file:
+CFCLEN	src/lcthw/bstrlib.c	1278;"	d	file:
+CFCLEN	src/lcthw/bstrlib.c	1288;"	d	file:
+CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG $(OPTFLAGS)$/;"	m
+CFLAGS	Makefile	/^dev: CFLAGS=-g -Wall -Isrc -Wall -Wextra $(OPTFLAGS)$/;"	m
+CRLF	bin/netclient.c	/^struct tagbstring CRLF = bsStatic("\\r\\n");$/;"	v	typeref:struct:tagbstring
+DArray	src/lcthw/darray.h	/^typedef struct DArray {$/;"	s
+DArray	src/lcthw/darray.h	/^} DArray;$/;"	t	typeref:struct:DArray
+DArray_clear	src/lcthw/darray.c	/^void DArray_clear(DArray * array)$/;"	f
+DArray_clear_destroy	src/lcthw/darray.c	/^void DArray_clear_destroy(DArray * array)$/;"	f
+DArray_compare	src/lcthw/darray_algos.h	/^typedef int (*DArray_compare) (const void *a, const void *b);$/;"	t
+DArray_contract	src/lcthw/darray.c	/^int DArray_contract(DArray * array)$/;"	f
+DArray_count	src/lcthw/darray.h	34;"	d
+DArray_create	src/lcthw/darray.c	/^DArray *DArray_create(size_t element_size, size_t initial_max)$/;"	f
+DArray_destroy	src/lcthw/darray.c	/^void DArray_destroy(DArray * array)$/;"	f
+DArray_end	src/lcthw/darray.h	33;"	d
+DArray_expand	src/lcthw/darray.c	/^int DArray_expand(DArray * array)$/;"	f
+DArray_first	src/lcthw/darray.h	32;"	d
+DArray_free	src/lcthw/darray.h	77;"	d
+DArray_get	src/lcthw/darray.h	/^static inline void *DArray_get(DArray * array, int i)$/;"	f
+DArray_heapsort	src/lcthw/darray_algos.c	/^int DArray_heapsort(DArray * array, DArray_compare cmp)$/;"	f
+DArray_last	src/lcthw/darray.h	31;"	d
+DArray_max	src/lcthw/darray.h	35;"	d
+DArray_mergesort	src/lcthw/darray_algos.c	/^int DArray_mergesort(DArray * array, DArray_compare cmp)$/;"	f
+DArray_new	src/lcthw/darray.h	/^static inline void *DArray_new(DArray * array)$/;"	f
+DArray_pop	src/lcthw/darray.c	/^void *DArray_pop(DArray * array)$/;"	f
+DArray_push	src/lcthw/darray.c	/^int DArray_push(DArray * array, void *el)$/;"	f
+DArray_qsort	src/lcthw/darray_algos.c	/^int DArray_qsort(DArray * array, DArray_compare cmp)$/;"	f
+DArray_remove	src/lcthw/darray.h	/^static inline void *DArray_remove(DArray * array, int i)$/;"	f
+DArray_resize	src/lcthw/darray.c	/^static inline int DArray_resize(DArray * array, size_t newsize)$/;"	f	file:
+DArray_set	src/lcthw/darray.h	/^static inline void DArray_set(DArray * array, int i, void *el)$/;"	f
+DEFAULT_EXPAND_RATE	src/lcthw/darray.h	37;"	d
+DEFAULT_NUMBER_OF_BUCKETS	src/lcthw/hashmap.h	7;"	d
+EMPTY_STRING	tests/bstr_tests.c	95;"	d	file:
+EQ	tests/stats_tests.c	22;"	d	file:
+FNV_OFFSET_BASIS	src/lcthw/hashmap_algos.c	/^const uint32_t FNV_OFFSET_BASIS = 2166136261;$/;"	v
+FNV_PRIME	src/lcthw/hashmap_algos.c	/^const uint32_t FNV_PRIME = 16777619;$/;"	v
+Hashmap	src/lcthw/hashmap.h	/^typedef struct Hashmap {$/;"	s
+Hashmap	src/lcthw/hashmap.h	/^} Hashmap;$/;"	t	typeref:struct:Hashmap
+HashmapNode	src/lcthw/hashmap.h	/^typedef struct HashmapNode {$/;"	s
+HashmapNode	src/lcthw/hashmap.h	/^} HashmapNode;$/;"	t	typeref:struct:HashmapNode
+Hashmap_adler32_hash	src/lcthw/hashmap_algos.c	/^uint32_t Hashmap_adler32_hash(void *data)$/;"	f
+Hashmap_compare	src/lcthw/hashmap.h	/^typedef int (*Hashmap_compare) (void *a, void *b);$/;"	t
+Hashmap_create	src/lcthw/hashmap.c	/^Hashmap *Hashmap_create(Hashmap_compare compare, Hashmap_hash hash)$/;"	f
+Hashmap_delete	src/lcthw/hashmap.c	/^void *Hashmap_delete(Hashmap * map, void *key)$/;"	f
+Hashmap_destroy	src/lcthw/hashmap.c	/^void Hashmap_destroy(Hashmap * map)$/;"	f
+Hashmap_djb_hash	src/lcthw/hashmap_algos.c	/^uint32_t Hashmap_djb_hash(void *data)$/;"	f
+Hashmap_find_bucket	src/lcthw/hashmap.c	/^static inline DArray *Hashmap_find_bucket(Hashmap * map, void *key,$/;"	f	file:
+Hashmap_fnv1a_hash	src/lcthw/hashmap_algos.c	/^uint32_t Hashmap_fnv1a_hash(void *data)$/;"	f
+Hashmap_get	src/lcthw/hashmap.c	/^void *Hashmap_get(Hashmap * map, void *key)$/;"	f
+Hashmap_get_node	src/lcthw/hashmap.c	/^static inline int Hashmap_get_node(Hashmap * map, uint32_t hash,$/;"	f	file:
+Hashmap_hash	src/lcthw/hashmap.h	/^typedef uint32_t(*Hashmap_hash) (void *key);$/;"	t
+Hashmap_node_create	src/lcthw/hashmap.c	/^static inline HashmapNode *Hashmap_node_create(int hash, void *key,$/;"	f	file:
+Hashmap_set	src/lcthw/hashmap.c	/^int Hashmap_set(Hashmap * map, void *key, void *data)$/;"	f
+Hashmap_traverse	src/lcthw/hashmap.c	/^int Hashmap_traverse(Hashmap * map, Hashmap_traverse_cb traverse_cb)$/;"	f
+Hashmap_traverse_cb	src/lcthw/hashmap.h	/^typedef int (*Hashmap_traverse_cb) (HashmapNode * node);$/;"	t
+INITIAL_STATIC_FIND_INDEX_COUNT	src/lcthw/bstrlib.c	1552;"	d	file:
+IN_STR	tests/string_algos_tests.c	/^struct tagbstring IN_STR = bsStatic($/;"	v	typeref:struct:tagbstring
+LDFLAGS	Makefile	/^LDFLAGS=$(OPTLIBS)$/;"	m
+LIST_FOREACH	src/lcthw/list.h	37;"	d
+LONG_BITS_QTY	src/lcthw/bstrlib.c	1275;"	d	file:
+LONG_LOG_BITS_QTY	src/lcthw/bstrlib.c	1274;"	d	file:
+LONG_STRING	tests/bstr_tests.c	97;"	d	file:
+LONG_TYPE	src/lcthw/bstrlib.c	1276;"	d	file:
+LOTS_OF_S	tests/bstr_tests.c	2614;"	d	file:
+List	src/lcthw/list.h	/^typedef struct List {$/;"	s
+List	src/lcthw/list.h	/^} List;$/;"	t	typeref:struct:List
+ListNode	src/lcthw/list.h	/^typedef struct ListNode {$/;"	s
+ListNode	src/lcthw/list.h	/^} ListNode;$/;"	t	typeref:struct:ListNode
+ListNode_swap	src/lcthw/list_algos.c	/^inline void ListNode_swap(ListNode * a, ListNode * b)$/;"	f
+List_bubble_sort	src/lcthw/list_algos.c	/^int List_bubble_sort(List * list, List_compare cmp)$/;"	f
+List_clear	src/lcthw/list.c	/^void List_clear(List * list)$/;"	f
+List_clear_destroy	src/lcthw/list.c	/^void List_clear_destroy(List * list)$/;"	f
+List_compare	src/lcthw/list_algos.h	/^typedef int (*List_compare) (const void *a, const void *b);$/;"	t
+List_count	src/lcthw/list.h	25;"	d
+List_create	src/lcthw/list.c	/^List *List_create()$/;"	f
+List_destroy	src/lcthw/list.c	/^void List_destroy(List * list)$/;"	f
+List_first	src/lcthw/list.h	26;"	d
+List_last	src/lcthw/list.h	27;"	d
+List_merge	src/lcthw/list_algos.c	/^inline List *List_merge(List * left, List * right, List_compare cmp)$/;"	f
+List_merge_sort	src/lcthw/list_algos.c	/^List *List_merge_sort(List * list, List_compare cmp)$/;"	f
+List_pop	src/lcthw/list.c	/^void *List_pop(List * list)$/;"	f
+List_push	src/lcthw/list.c	/^void List_push(List * list, void *value)$/;"	f
+List_remove	src/lcthw/list.c	/^void *List_remove(List * list, ListNode * node)$/;"	f
+List_shift	src/lcthw/list.c	/^void *List_shift(List * list)$/;"	f
+List_unshift	src/lcthw/list.c	/^void List_unshift(List * list, void *value)$/;"	f
+MOD_ADLER	src/lcthw/hashmap_algos.c	/^const int MOD_ADLER = 65521;$/;"	v
+NDEBUG	bin/netclient.c	1;"	d	file:
+NDEBUG	src/lcthw/hashmap.c	1;"	d	file:
+NDEBUG	src/lcthw/ringbuffer.c	1;"	d	file:
+NDEBUG	src/lcthw/sarray.c	1;"	d	file:
+NDEBUG	tests/bstr_tests.c	1;"	d	file:
+NDEBUG	tests/minunit.h	1;"	d
+NL	bin/netclient.c	/^struct tagbstring NL = bsStatic("\\n");$/;"	v	typeref:struct:tagbstring
+NUM_KEYS	tests/hashmap_algos_tests.c	55;"	d	file:
+NUM_SAMPLES	tests/stats_tests.c	/^const int NUM_SAMPLES = 10;$/;"	v
+NUM_TESTS	tests/queue_tests.c	8;"	d	file:
+NUM_TESTS	tests/stack_tests.c	8;"	d	file:
+NUM_VALUES	tests/list_algos_tests.c	8;"	d	file:
+OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
+PREFIX	Makefile	/^PREFIX?=\/usr\/local$/;"	m
+QUEUE_FOREACH	src/lcthw/queue.h	19;"	d
+Queue	src/lcthw/queue.h	/^typedef List Queue;$/;"	t
+Queue_clear	src/lcthw/queue.h	10;"	d
+Queue_clear_destroy	src/lcthw/queue.h	11;"	d
+Queue_count	src/lcthw/queue.h	16;"	d
+Queue_create	src/lcthw/queue.h	8;"	d
+Queue_destroy	src/lcthw/queue.h	9;"	d
+Queue_peek	src/lcthw/queue.h	17;"	d
+Queue_recv	src/lcthw/queue.h	14;"	d
+Queue_send	src/lcthw/queue.h	13;"	d
+RMElement	src/lcthw/radixmap.h	/^typedef union RMElement {$/;"	u
+RMElement	src/lcthw/radixmap.h	/^} RMElement;$/;"	t	typeref:union:RMElement
+RUN_TESTS	tests/minunit.h	15;"	d
+RadixMap	src/lcthw/radixmap.h	/^typedef struct RadixMap {$/;"	s
+RadixMap	src/lcthw/radixmap.h	/^} RadixMap;$/;"	t	typeref:struct:RadixMap
+RadixMap_add	src/lcthw/radixmap.c	/^int RadixMap_add(RadixMap * map, uint32_t key, uint32_t value)$/;"	f
+RadixMap_create	src/lcthw/radixmap.c	/^RadixMap *RadixMap_create(size_t max)$/;"	f
+RadixMap_delete	src/lcthw/radixmap.c	/^int RadixMap_delete(RadixMap * map, RMElement * el)$/;"	f
+RadixMap_destroy	src/lcthw/radixmap.c	/^void RadixMap_destroy(RadixMap * map)$/;"	f
+RadixMap_find	src/lcthw/radixmap.c	/^RMElement *RadixMap_find(RadixMap * map, uint32_t to_find)$/;"	f
+RadixMap_sort	src/lcthw/radixmap.c	/^void RadixMap_sort(RadixMap * map)$/;"	f
+RingBuffer	src/lcthw/ringbuffer.h	/^} RingBuffer;$/;"	t	typeref:struct:__anon2
+RingBuffer_available_data	src/lcthw/ringbuffer.h	31;"	d
+RingBuffer_available_space	src/lcthw/ringbuffer.h	34;"	d
+RingBuffer_clear	src/lcthw/ringbuffer.h	59;"	d
+RingBuffer_commit_read	src/lcthw/ringbuffer.h	53;"	d
+RingBuffer_commit_write	src/lcthw/ringbuffer.h	56;"	d
+RingBuffer_create	src/lcthw/ringbuffer.c	/^RingBuffer *RingBuffer_create(int length)$/;"	f
+RingBuffer_destroy	src/lcthw/ringbuffer.c	/^void RingBuffer_destroy(RingBuffer * buffer)$/;"	f
+RingBuffer_empty	src/lcthw/ringbuffer.h	39;"	d
+RingBuffer_ends_at	src/lcthw/ringbuffer.h	50;"	d
+RingBuffer_full	src/lcthw/ringbuffer.h	37;"	d
+RingBuffer_get_all	src/lcthw/ringbuffer.h	44;"	d
+RingBuffer_gets	src/lcthw/ringbuffer.c	/^bstring RingBuffer_gets(RingBuffer * buffer, int amount)$/;"	f
+RingBuffer_puts	src/lcthw/ringbuffer.h	41;"	d
+RingBuffer_read	src/lcthw/ringbuffer.c	/^int RingBuffer_read(RingBuffer * buffer, char *target, int amount)$/;"	f
+RingBuffer_starts_at	src/lcthw/ringbuffer.h	47;"	d
+RingBuffer_write	src/lcthw/ringbuffer.c	/^int RingBuffer_write(RingBuffer * buffer, char *data, int length)$/;"	f
+SHORT_STRING	tests/bstr_tests.c	96;"	d	file:
+SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+STACK_FOREACH	src/lcthw/stack.h	19;"	d
+START_VSNBUFF	src/lcthw/bstrlib.c	2756;"	d	file:
+START_VSNBUFF	src/lcthw/bstrlib.c	2772;"	d	file:
+Stack	src/lcthw/stack.h	/^typedef List Stack;$/;"	t
+Stack_clear	src/lcthw/stack.h	10;"	d
+Stack_clear_destroy	src/lcthw/stack.h	11;"	d
+Stack_count	src/lcthw/stack.h	17;"	d
+Stack_create	src/lcthw/stack.h	8;"	d
+Stack_destroy	src/lcthw/stack.h	9;"	d
+Stack_peek	src/lcthw/stack.h	15;"	d
+Stack_pop	src/lcthw/stack.h	14;"	d
+Stack_push	src/lcthw/stack.h	13;"	d
+Stats	src/lcthw/stats.h	/^typedef struct Stats {$/;"	s
+Stats	src/lcthw/stats.h	/^} Stats;$/;"	t	typeref:struct:Stats
+Stats_create	src/lcthw/stats.c	/^Stats *Stats_create()$/;"	f
+Stats_dump	src/lcthw/stats.c	/^void Stats_dump(Stats * st)$/;"	f
+Stats_mean	src/lcthw/stats.c	/^double Stats_mean(Stats * st)$/;"	f
+Stats_recreate	src/lcthw/stats.c	/^Stats *Stats_recreate(double sum, double sumsq, unsigned long n,$/;"	f
+Stats_sample	src/lcthw/stats.c	/^void Stats_sample(Stats * st, double s)$/;"	f
+Stats_stddev	src/lcthw/stats.c	/^double Stats_stddev(Stats * st)$/;"	f
+StringScanner	src/lcthw/string_algos.h	/^typedef struct StringScanner {$/;"	s
+StringScanner	src/lcthw/string_algos.h	/^} StringScanner;$/;"	t	typeref:struct:StringScanner
+StringScanner_create	src/lcthw/string_algos.c	/^StringScanner *StringScanner_create(bstring in)$/;"	f
+StringScanner_destroy	src/lcthw/string_algos.c	/^void StringScanner_destroy(StringScanner * scan)$/;"	f
+StringScanner_reset	src/lcthw/string_algos.c	/^static inline void StringScanner_reset(StringScanner * scan)$/;"	f	file:
+StringScanner_scan	src/lcthw/string_algos.c	/^int StringScanner_scan(StringScanner * scan, bstring tofind)$/;"	f
+StringScanner_set_needle	src/lcthw/string_algos.c	/^static inline void StringScanner_set_needle(StringScanner * scan,$/;"	f	file:
+String_base_search	src/lcthw/string_algos.c	/^static inline const unsigned char *String_base_search(const unsigned$/;"	f	file:
+String_find	src/lcthw/string_algos.c	/^int String_find(bstring in, bstring what)$/;"	f
+String_setup_skip_chars	src/lcthw/string_algos.c	/^static inline void String_setup_skip_chars(size_t * skip_chars,$/;"	f	file:
+SuffixArray	src/lcthw/sarray.h	/^typedef struct SuffixArray {$/;"	s
+SuffixArray	src/lcthw/sarray.h	/^} SuffixArray;$/;"	t	typeref:struct:SuffixArray
+SuffixArray_compare	src/lcthw/sarray.c	/^int SuffixArray_compare(void *thunk, const void *a, const void *b)$/;"	f
+SuffixArray_create	src/lcthw/sarray.c	/^SuffixArray *SuffixArray_create(char *data, int length)$/;"	f
+SuffixArray_destroy	src/lcthw/sarray.c	/^void SuffixArray_destroy(SuffixArray *sarry)$/;"	f
+SuffixArray_find_suffix	src/lcthw/sarray.c	/^int SuffixArray_find_suffix(SuffixArray *sarry, char *data, int length)$/;"	f
+SuffixArray_substr	src/lcthw/sarray.h	16;"	d
+TARGET	Makefile	/^TARGET=build\/liblcthw.a$/;"	m
+TESTS	Makefile	/^TESTS=$(patsubst %.c,%,$(TEST_SRC))$/;"	m
+TEST_SRC	Makefile	/^TEST_SRC=$(wildcard tests\/*_tests.c)$/;"	m
+TEST_TIME	tests/string_algos_tests.c	/^const int TEST_TIME = 1;$/;"	v
+TSTree	src/lcthw/tstree.h	/^typedef struct TSTree {$/;"	s
+TSTree	src/lcthw/tstree.h	/^} TSTree;$/;"	t	typeref:struct:TSTree
+TSTree_destroy	src/lcthw/tstree.c	/^void TSTree_destroy(TSTree * node)$/;"	f
+TSTree_insert	src/lcthw/tstree.c	/^TSTree *TSTree_insert(TSTree * node, const char *key, size_t len,$/;"	f
+TSTree_insert_base	src/lcthw/tstree.c	/^static inline TSTree *TSTree_insert_base(TSTree * root, TSTree * node,$/;"	f	file:
+TSTree_search	src/lcthw/tstree.c	/^void *TSTree_search(TSTree * root, const char *key, size_t len)$/;"	f
+TSTree_search_prefix	src/lcthw/tstree.c	/^void *TSTree_search_prefix(TSTree * root, const char *key, size_t len)$/;"	f
+TSTree_traverse	src/lcthw/tstree.c	/^void TSTree_traverse(TSTree * node, TSTree_traverse_cb cb, void *data)$/;"	f
+TSTree_traverse_cb	src/lcthw/tstree.h	/^typedef void (*TSTree_traverse_cb) (void *value, void *data);$/;"	t
+TSTree_traverse_test_cb	tests/tstree_tests.c	/^void TSTree_traverse_test_cb(void *value, void *data)$/;"	f
+_CRT_SECURE_NO_WARNINGS	src/lcthw/bstrlib.c	16;"	d	file:
+_DArray_h	src/lcthw/darray.h	2;"	d
+__dbg_h__	src/lcthw/dbg.h	2;"	d
+_lcthw_BSTree_h	src/lcthw/bstree.h	2;"	d
+_lcthw_Hashmap_h	src/lcthw/hashmap.h	2;"	d
+_lcthw_Queue_h	src/lcthw/queue.h	2;"	d
+_lcthw_RingBuffer_h	src/lcthw/ringbuffer.h	2;"	d
+_lcthw_Stack_h	src/lcthw/stack.h	2;"	d
+_lcthw_TSTree_h	src/lcthw/tstree.h	2;"	d
+_lcthw_sarry_h	src/lcthw/sarray.h	2;"	d
+_minunit_h	tests/minunit.h	3;"	d
+add_route_data	bin/urlor.c	/^TSTree *add_route_data(TSTree * routes, bstring line)$/;"	f
+all_tests	tests/bstree_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/bstree_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/darray_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/darray_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/darray_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/darray_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/hashmap_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/hashmap_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/hashmap_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/hashmap_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/queue_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/queue_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/radixmap_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/radixmap_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/ringbuffer_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/ringbuffer_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/sarray_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/sarray_tests.c	/^char *all_tests() {$/;"	f
+all_tests	tests/stack_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/stack_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/stats_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/stats_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/string_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/string_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/tstree_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/tstree_tests.c	/^char *all_tests()$/;"	f
+array	tests/darray_tests.c	/^static DArray *array = NULL;$/;"	v	file:
+b	src/lcthw/bstrlib.c	/^    bstring b;$/;"	m	struct:genBstrList	file:
+b	tests/bstr_tests.c	/^    bstring b;$/;"	m	struct:sbstr	file:
+b	tests/bstr_tests.c	/^    bstring b;$/;"	m	struct:tagBss	file:
+bBlockCopy	src/lcthw/bstrlib.c	67;"	d	file:
+bNgetc	src/lcthw/bstrlib.h	/^typedef int (*bNgetc) (void *parm);$/;"	t
+bNread	src/lcthw/bstrlib.h	/^typedef size_t (* bNread) (void *buff, size_t elsize, size_t nelem, void *parm);$/;"	t
+bStream	src/lcthw/bstrlib.c	/^struct bStream {$/;"	s	file:
+badBstring1	tests/bstr_tests.c	/^struct tagbstring badBstring1 = { 8, 4, NULL };$/;"	v	typeref:struct:tagbstring
+badBstring2	tests/bstr_tests.c	/^struct tagbstring badBstring2 = { 2, -5, (unsigned char *)"bogus" };$/;"	v	typeref:struct:tagbstring
+badBstring3	tests/bstr_tests.c	/^struct tagbstring badBstring3 = { 2, 5, (unsigned char *)"bogus" };$/;"	v	typeref:struct:tagbstring
+balloc	src/lcthw/bstrlib.c	/^int balloc (bstring b, int olen) {$/;"	f
+ballocmin	src/lcthw/bstrlib.c	/^int ballocmin (bstring b, int len) {$/;"	f
+bassign	src/lcthw/bstrlib.c	/^int bassign (bstring a, const_bstring b) {$/;"	f
+bassignblk	src/lcthw/bstrlib.c	/^int bassignblk (bstring a, const void * s, int len) {$/;"	f
+bassigncstr	src/lcthw/bstrlib.c	/^int bassigncstr (bstring a, const char * str) {$/;"	f
+bassignformat	src/lcthw/bstrlib.c	/^int bassignformat (bstring b, const char * fmt, ...) {$/;"	f
+bassigngets	src/lcthw/bstrlib.c	/^int bassigngets (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bassignmidstr	src/lcthw/bstrlib.c	/^int bassignmidstr (bstring a, const_bstring b, int left, int len) {$/;"	f
+bcatblk	src/lcthw/bstrlib.c	/^int bcatblk (bstring b, const void * s, int len) {$/;"	f
+bcatcstr	src/lcthw/bstrlib.c	/^int bcatcstr (bstring b, const char * s) {$/;"	f
+bchar	src/lcthw/bstrlib.h	203;"	d
+bchare	src/lcthw/bstrlib.h	202;"	d
+bconcat	src/lcthw/bstrlib.c	/^int bconcat (bstring b0, const_bstring b1) {$/;"	f
+bconchar	src/lcthw/bstrlib.c	/^int bconchar (bstring b, char c) {$/;"	f
+bcstrfree	src/lcthw/bstrlib.c	/^int bcstrfree (char * s) {$/;"	f
+bdata	src/lcthw/bstrlib.h	201;"	d
+bdatae	src/lcthw/bstrlib.h	200;"	d
+bdataofs	src/lcthw/bstrlib.h	199;"	d
+bdataofse	src/lcthw/bstrlib.h	198;"	d
+bdelete	src/lcthw/bstrlib.c	/^int bdelete (bstring b, int pos, int len) {$/;"	f
+bdestroy	src/lcthw/bstrlib.c	/^int bdestroy (bstring b) {$/;"	f
+bdestroy_cb	bin/urlor.c	/^void bdestroy_cb(void *value, void *ignored)$/;"	f
+bfindreplace	src/lcthw/bstrlib.c	/^int bfindreplace (bstring b, const_bstring find, const_bstring repl, int pos) {$/;"	f
+bfindreplacecaseless	src/lcthw/bstrlib.c	/^int bfindreplacecaseless (bstring b, const_bstring find, const_bstring repl, int pos) {$/;"	f
+bformat	src/lcthw/bstrlib.c	/^bstring bformat (const char * fmt, ...) {$/;"	f
+bformata	src/lcthw/bstrlib.c	/^int bformata (bstring b, const char * fmt, ...) {$/;"	f
+bfromcstr	src/lcthw/bstrlib.c	/^bstring bfromcstr (const char * str) {$/;"	f
+bfromcstralloc	src/lcthw/bstrlib.c	/^bstring bfromcstralloc (int mlen, const char * str) {$/;"	f
+bgets	src/lcthw/bstrlib.c	/^bstring bgets (bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+bgetsa	src/lcthw/bstrlib.c	/^int bgetsa (bstring b, bNgetc getcPtr, void * parm, char terminator) {$/;"	f
+binchr	src/lcthw/bstrlib.c	/^int binchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrCF	src/lcthw/bstrlib.c	/^static int binchrCF (const unsigned char * data, int len, int pos, const struct charField * cf) {$/;"	f	file:
+binchrr	src/lcthw/bstrlib.c	/^int binchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+binchrrCF	src/lcthw/bstrlib.c	/^static int binchrrCF (const unsigned char * data, int pos, const struct charField * cf) {$/;"	f	file:
+binsert	src/lcthw/bstrlib.c	/^int binsert (bstring b1, int pos, const_bstring b2, unsigned char fill) {$/;"	f
+binsertch	src/lcthw/bstrlib.c	/^int binsertch (bstring b, int pos, int len, unsigned char fill) {$/;"	f
+binstr	src/lcthw/bstrlib.c	/^int binstr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrcaseless	src/lcthw/bstrlib.c	/^int binstrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrr	src/lcthw/bstrlib.c	/^int binstrr (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+binstrrcaseless	src/lcthw/bstrlib.c	/^int binstrrcaseless (const_bstring b1, int pos, const_bstring b2) {$/;"	f
+biseq	src/lcthw/bstrlib.c	/^int biseq (const_bstring b0, const_bstring b1) {$/;"	f
+biseqcaseless	src/lcthw/bstrlib.c	/^int biseqcaseless (const_bstring b0, const_bstring b1) {$/;"	f
+biseqcstr	src/lcthw/bstrlib.c	/^int biseqcstr (const_bstring b, const char * s) {$/;"	f
+biseqcstrcaseless	src/lcthw/bstrlib.c	/^int biseqcstrcaseless (const_bstring b, const char * s) {$/;"	f
+bisstemeqblk	src/lcthw/bstrlib.c	/^int bisstemeqblk (const_bstring b0, const void * blk, int len) {$/;"	f
+bisstemeqcaselessblk	src/lcthw/bstrlib.c	/^int bisstemeqcaselessblk (const_bstring b0, const void * blk, int len) {$/;"	f
+biswriteprotected	src/lcthw/bstrlib.h	298;"	d
+bjoin	src/lcthw/bstrlib.c	/^bstring bjoin (const struct bstrList * bl, const_bstring sep) {$/;"	f
+bl	src/lcthw/bstrlib.c	/^    struct bstrList * bl;$/;"	m	struct:genBstrList	typeref:struct:genBstrList::bstrList	file:
+blength	src/lcthw/bstrlib.h	197;"	d
+blengthe	src/lcthw/bstrlib.h	196;"	d
+blk2bstr	src/lcthw/bstrlib.c	/^bstring blk2bstr (const void * blk, int len) {$/;"	f
+blk2tbstr	src/lcthw/bstrlib.h	225;"	d
+bltrimws	src/lcthw/bstrlib.c	/^int bltrimws (bstring b) {$/;"	f
+bmid2tbstr	src/lcthw/bstrlib.h	231;"	d
+bmidstr	src/lcthw/bstrlib.c	/^bstring bmidstr (const_bstring b, int left, int len) {$/;"	f
+bninchr	src/lcthw/bstrlib.c	/^int bninchr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bninchrr	src/lcthw/bstrlib.c	/^int bninchrr (const_bstring b0, int pos, const_bstring b1) {$/;"	f
+bpattern	src/lcthw/bstrlib.c	/^int bpattern (bstring b, int len) {$/;"	f
+bread	src/lcthw/bstrlib.c	/^bstring bread (bNread readPtr, void * parm) {$/;"	f
+breada	src/lcthw/bstrlib.c	/^int breada (bstring b, bNread readPtr, void * parm) {$/;"	f
+breplace	src/lcthw/bstrlib.c	/^int breplace (bstring b1, int pos, int len, const_bstring b2, $/;"	f
+brtrimws	src/lcthw/bstrlib.c	/^int brtrimws (bstring b) {$/;"	f
+bsStatic	src/lcthw/bstrlib.h	209;"	d
+bsStatic	src/lcthw/bstrlib.h	212;"	d
+bsStaticBlkParms	src/lcthw/bstrlib.h	216;"	d
+bsStaticMlen	src/lcthw/bstrlib.h	206;"	d
+bsbufflength	src/lcthw/bstrlib.c	/^int bsbufflength (struct bStream * s, int sz) {$/;"	f
+bscb	src/lcthw/bstrlib.c	/^static int bscb (void * parm, int ofs, int len) {$/;"	f	file:
+bsclose	src/lcthw/bstrlib.c	/^void * bsclose (struct bStream * s) {$/;"	f
+bseof	src/lcthw/bstrlib.c	/^int bseof (const struct bStream * s) {$/;"	f
+bsetstr	src/lcthw/bstrlib.c	/^int bsetstr (bstring b0, int pos, const_bstring b1, unsigned char fill) {$/;"	f
+bsopen	src/lcthw/bstrlib.c	/^struct bStream * bsopen (bNread readPtr, void * parm) {$/;"	f
+bspeek	src/lcthw/bstrlib.c	/^int bspeek (bstring r, const struct bStream * s) {$/;"	f
+bsplit	src/lcthw/bstrlib.c	/^struct bstrList * bsplit (const_bstring str, unsigned char splitChar) {$/;"	f
+bsplitcb	src/lcthw/bstrlib.c	/^int bsplitcb (const_bstring str, unsigned char splitChar, int pos,$/;"	f
+bsplits	src/lcthw/bstrlib.c	/^struct bstrList * bsplits (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitscb	src/lcthw/bstrlib.c	/^int bsplitscb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsplitstr	src/lcthw/bstrlib.c	/^struct bstrList * bsplitstr (const_bstring str, const_bstring splitStr) {$/;"	f
+bsplitstrcb	src/lcthw/bstrlib.c	/^int bsplitstrcb (const_bstring str, const_bstring splitStr, int pos,$/;"	f
+bsread	src/lcthw/bstrlib.c	/^int bsread (bstring r, struct bStream * s, int n) {$/;"	f
+bsreada	src/lcthw/bstrlib.c	/^int bsreada (bstring r, struct bStream * s, int n) {$/;"	f
+bsreadln	src/lcthw/bstrlib.c	/^int bsreadln (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlna	src/lcthw/bstrlib.c	/^int bsreadlna (bstring r, struct bStream * s, char terminator) {$/;"	f
+bsreadlns	src/lcthw/bstrlib.c	/^int bsreadlns (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bsreadlnsa	src/lcthw/bstrlib.c	/^int bsreadlnsa (bstring r, struct bStream * s, const_bstring term) {$/;"	f
+bssplitscb	src/lcthw/bstrlib.c	/^int bssplitscb (struct bStream * s, const_bstring splitStr, $/;"	f
+bssplitstrcb	src/lcthw/bstrlib.c	/^int bssplitstrcb (struct bStream * s, const_bstring splitStr, $/;"	f
+bstr2cstr	src/lcthw/bstrlib.c	/^char * bstr2cstr (const_bstring b, char z) {$/;"	f
+bstrList	src/lcthw/bstrlib.h	/^struct bstrList {$/;"	s
+bstrListAlloc	src/lcthw/bstrlib.c	/^int bstrListAlloc (struct bstrList * sl, int msz) {$/;"	f
+bstrListAllocMin	src/lcthw/bstrlib.c	/^int bstrListAllocMin (struct bstrList * sl, int msz) {$/;"	f
+bstrListCreate	src/lcthw/bstrlib.c	/^struct bstrList * bstrListCreate (void) {$/;"	f
+bstrListDestroy	src/lcthw/bstrlib.c	/^int bstrListDestroy (struct bstrList * sl) {$/;"	f
+bstr__alloc	src/lcthw/bstrlib.c	34;"	d	file:
+bstr__free	src/lcthw/bstrlib.c	38;"	d	file:
+bstr__memchr	src/lcthw/bstrlib.c	62;"	d	file:
+bstr__memcmp	src/lcthw/bstrlib.c	58;"	d	file:
+bstr__memcpy	src/lcthw/bstrlib.c	46;"	d	file:
+bstr__memmove	src/lcthw/bstrlib.c	50;"	d	file:
+bstr__memset	src/lcthw/bstrlib.c	54;"	d	file:
+bstr__realloc	src/lcthw/bstrlib.c	42;"	d	file:
+bstrchr	src/lcthw/bstrlib.h	92;"	d
+bstrchrp	src/lcthw/bstrlib.c	/^int bstrchrp (const_bstring b, int c, int pos) {$/;"	f
+bstrcmp	src/lcthw/bstrlib.c	/^int bstrcmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstrcpy	src/lcthw/bstrlib.c	/^bstring bstrcpy (const_bstring b) {$/;"	f
+bstricmp	src/lcthw/bstrlib.c	/^int bstricmp (const_bstring b0, const_bstring b1) {$/;"	f
+bstring	src/lcthw/bstrlib.h	/^typedef struct tagbstring * bstring;$/;"	t	typeref:struct:tagbstring
+bstrncmp	src/lcthw/bstrlib.c	/^int bstrncmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrnicmp	src/lcthw/bstrlib.c	/^int bstrnicmp (const_bstring b0, const_bstring b1, int n) {$/;"	f
+bstrrchr	src/lcthw/bstrlib.h	93;"	d
+bstrrchrp	src/lcthw/bstrlib.c	/^int bstrrchrp (const_bstring b, int c, int pos) {$/;"	f
+bsunread	src/lcthw/bstrlib.c	/^int bsunread (struct bStream * s, const_bstring b) {$/;"	f
+btfromblk	src/lcthw/bstrlib.h	230;"	d
+btfromblkltrimws	src/lcthw/bstrlib.h	255;"	d
+btfromblkrtrimws	src/lcthw/bstrlib.h	267;"	d
+btfromblktrimws	src/lcthw/bstrlib.h	279;"	d
+btfromcstr	src/lcthw/bstrlib.h	220;"	d
+btolower	src/lcthw/bstrlib.c	/^int btolower (bstring b) {$/;"	f
+btoupper	src/lcthw/bstrlib.c	/^int btoupper (bstring b) {$/;"	f
+btrimws	src/lcthw/bstrlib.c	/^int btrimws (bstring b) {$/;"	f
+btrunc	src/lcthw/bstrlib.c	/^int btrunc (bstring b, int n) {$/;"	f
+buckets	src/lcthw/hashmap.h	/^    DArray *buckets;$/;"	m	struct:Hashmap
+buff	src/lcthw/bstrlib.c	/^    bstring buff;		\/* Buffer for over-reads *\/$/;"	m	struct:bStream	file:
+buffer	src/lcthw/ringbuffer.h	/^    char *buffer;$/;"	m	struct:__anon2
+buffer	tests/ringbuffer_tests.c	/^static RingBuffer *buffer = NULL;$/;"	v	file:
+buildCharField	src/lcthw/bstrlib.c	/^static int buildCharField (struct charField * cf, const_bstring b) {$/;"	f	file:
+bvcformata	src/lcthw/bstrlib.c	/^int bvcformata (bstring b, int count, const char * fmt, va_list arg) {$/;"	f
+bvformata	src/lcthw/bstrlib.h	138;"	d
+bwriteallow	src/lcthw/bstrlib.h	297;"	d
+bwriteprotect	src/lcthw/bstrlib.h	296;"	d
+charField	src/lcthw/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	s	file:
+charField	src/lcthw/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	s	file:
+check	src/lcthw/dbg.h	28;"	d
+check_debug	src/lcthw/dbg.h	36;"	d
+check_mem	src/lcthw/dbg.h	34;"	d
+check_order	tests/radixmap_tests.c	/^static int check_order(RadixMap * map)$/;"	f	file:
+clean_errno	src/lcthw/dbg.h	15;"	d
+client_connect	bin/netclient.c	/^int client_connect(char *host, char *port)$/;"	f
+compare	src/lcthw/bstree.h	/^    BSTree_compare compare;$/;"	m	struct:BSTree
+compare	src/lcthw/hashmap.h	/^    Hashmap_compare compare;$/;"	m	struct:Hashmap
+const_bstring	src/lcthw/bstrlib.h	/^typedef const struct tagbstring * const_bstring;$/;"	t	typeref:struct:tagbstring
+content	src/lcthw/bstrlib.c	/^struct charField { LONG_TYPE content[CFCLEN]; };$/;"	m	struct:charField	file:
+content	src/lcthw/bstrlib.c	/^struct charField { unsigned char content[CFCLEN]; };$/;"	m	struct:charField	file:
+contents	src/lcthw/darray.h	/^    void **contents;$/;"	m	struct:DArray
+contents	src/lcthw/radixmap.h	/^    RMElement *contents;$/;"	m	struct:RadixMap
+contents	tests/bstr_tests.c	/^    bstring contents;$/;"	m	struct:emuFile	file:
+count	src/lcthw/bstree.h	/^    int count;$/;"	m	struct:BSTree
+count	src/lcthw/list.h	/^    int count;$/;"	m	struct:List
+counter	src/lcthw/radixmap.h	/^    uint32_t counter;$/;"	m	struct:RadixMap
+create_words	tests/darray_algos_tests.c	/^DArray *create_words()$/;"	f
+create_words	tests/list_algos_tests.c	/^List *create_words()$/;"	f
+cstr2bstr	src/lcthw/bstrlib.h	41;"	d
+cstr2tbstr	src/lcthw/bstrlib.h	219;"	d
+darray_algos_h	src/lcthw/darray_algos.h	2;"	d
+data	src/lcthw/bstree.h	/^    void *data;$/;"	m	struct:BSTreeNode
+data	src/lcthw/bstrlib.h	/^    unsigned char * data;$/;"	m	struct:tagbstring
+data	src/lcthw/hashmap.h	/^    void *data;$/;"	m	struct:HashmapNode
+data	src/lcthw/radixmap.h	/^    } data;$/;"	m	union:RMElement	typeref:struct:RMElement::__anon1
+data	tests/ringbuffer_tests.c	/^char data[100] = { '\\0' };$/;"	v
+debug	src/lcthw/dbg.h	11;"	d
+debug	src/lcthw/dbg.h	9;"	d
+default_compare	src/lcthw/bstree.c	/^static int default_compare(void *a, void *b)$/;"	f	file:
+default_compare	src/lcthw/hashmap.c	/^static int default_compare(void *a, void *b)$/;"	f	file:
+default_hash	src/lcthw/hashmap.c	/^static uint32_t default_hash(void *a)$/;"	f	file:
+destroy_keys	tests/hashmap_algos_tests.c	/^void destroy_keys(DArray * keys)$/;"	f
+destroy_routes	bin/urlor.c	/^void destroy_routes(TSTree * routes)$/;"	f
+downcase	src/lcthw/bstrlib.c	560;"	d	file:
+dumpBstring	tests/bstr_tests.c	/^static char *dumpBstring(const struct tagbstring *b)$/;"	f	file:
+dumpOut	tests/bstr_tests.c	/^static bstring dumpOut[16];$/;"	v	file:
+element_size	src/lcthw/darray.h	/^    size_t element_size;$/;"	m	struct:DArray
+emptyBstring	tests/bstr_tests.c	/^struct tagbstring emptyBstring = bsStatic("");$/;"	v	typeref:struct:tagbstring
+emuFile	tests/bstr_tests.c	/^struct emuFile {$/;"	s	file:
+end	src/lcthw/darray.h	/^    int end;$/;"	m	struct:DArray
+end	src/lcthw/radixmap.h	/^    size_t end;$/;"	m	struct:RadixMap
+end	src/lcthw/ringbuffer.h	/^    int end;$/;"	m	struct:__anon2
+entry	src/lcthw/bstrlib.h	/^    bstring * entry;$/;"	m	struct:bstrList
+equal	src/lcthw/tstree.h	/^    struct TSTree *equal;$/;"	m	struct:TSTree	typeref:struct:TSTree::TSTree
+expand_rate	src/lcthw/darray.h	/^    size_t expand_rate;$/;"	m	struct:DArray
+expect	tests/stats_tests.c	/^Stats expect = {$/;"	v
+expect1	tests/bstree_tests.c	/^struct tagbstring expect1 = bsStatic("THE VALUE 1");$/;"	v	typeref:struct:tagbstring
+expect1	tests/hashmap_tests.c	/^struct tagbstring expect1 = bsStatic("THE VALUE 1");$/;"	v	typeref:struct:tagbstring
+expect2	tests/bstree_tests.c	/^struct tagbstring expect2 = bsStatic("THE VALUE 2");$/;"	v	typeref:struct:tagbstring
+expect2	tests/hashmap_tests.c	/^struct tagbstring expect2 = bsStatic("THE VALUE 2");$/;"	v	typeref:struct:tagbstring
+expect3	tests/bstree_tests.c	/^struct tagbstring expect3 = bsStatic("THE VALUE 3");$/;"	v	typeref:struct:tagbstring
+expect3	tests/hashmap_tests.c	/^struct tagbstring expect3 = bsStatic("THE VALUE 3");$/;"	v	typeref:struct:tagbstring
+expect_mean	tests/stats_tests.c	/^double expect_mean = 5.584602;$/;"	v
+expect_stddev	tests/stats_tests.c	/^double expect_stddev = 3.547868;$/;"	v
+exvsnprintf	src/lcthw/bstrlib.c	2750;"	d	file:
+exvsnprintf	src/lcthw/bstrlib.c	2755;"	d	file:
+exvsnprintf	src/lcthw/bstrlib.c	2765;"	d	file:
+fill_distribution	tests/hashmap_algos_tests.c	/^void fill_distribution(int *stats, DArray * keys,$/;"	f
+findreplaceengine	src/lcthw/bstrlib.c	/^static int findreplaceengine (bstring b, const_bstring find, const_bstring repl, int pos, instr_fnptr instr) {$/;"	f	file:
+first	src/lcthw/list.h	/^    ListNode *first;$/;"	m	struct:List
+first	tests/bstr_tests.c	/^    int first;$/;"	m	struct:tagBss	file:
+genBstrList	src/lcthw/bstrlib.c	/^struct genBstrList {$/;"	s	file:
+gen_keys	tests/hashmap_algos_tests.c	/^int gen_keys(DArray * keys, int num_keys)$/;"	f
+hash	src/lcthw/hashmap.h	/^    Hashmap_hash hash;$/;"	m	struct:Hashmap
+hash	src/lcthw/hashmap.h	/^    uint32_t hash;$/;"	m	struct:HashmapNode
+hashmap_algos_h	src/lcthw/hashmap_algos.h	2;"	d
+haystack	src/lcthw/string_algos.h	/^    const unsigned char *haystack;$/;"	m	struct:StringScanner
+high	src/lcthw/tstree.h	/^    struct TSTree *high;$/;"	m	struct:TSTree	typeref:struct:TSTree::TSTree
+hlen	src/lcthw/string_algos.h	/^    ssize_t hlen;$/;"	m	struct:StringScanner
+in	src/lcthw/string_algos.h	/^    bstring in;$/;"	m	struct:StringScanner
+indices	src/lcthw/sarray.h	/^    int *indices;$/;"	m	struct:SuffixArray
+instr_fnptr	src/lcthw/bstrlib.c	/^typedef int (*instr_fnptr) (const_bstring s1, int pos, const_bstring s2);$/;"	t	file:
+invertCharField	src/lcthw/bstrlib.c	/^static void invertCharField (struct charField * cf) {$/;"	f	file:
+isEOF	src/lcthw/bstrlib.c	/^    int isEOF;		\/* track file's EOF state *\/$/;"	m	struct:bStream	file:
+is_sorted	tests/darray_algos_tests.c	/^int is_sorted(DArray * array)$/;"	f
+is_sorted	tests/list_algos_tests.c	/^int is_sorted(List * words)$/;"	f
+key	src/lcthw/bstree.h	/^    void *key;$/;"	m	struct:BSTreeNode
+key	src/lcthw/hashmap.h	/^    void *key;$/;"	m	struct:HashmapNode
+key	src/lcthw/radixmap.h	/^        uint32_t key;$/;"	m	struct:RMElement::__anon1
+last	src/lcthw/list.h	/^    ListNode *last;$/;"	m	struct:List
+lcthw_List_algos_h	src/lcthw/list_algos.h	2;"	d
+lcthw_List_h	src/lcthw/list.h	2;"	d
+lcthw_stats_h	src/lcthw/stats.h	2;"	d
+left	src/lcthw/bstree.h	/^    struct BSTreeNode *left;$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode::BSTreeNode
+length	src/lcthw/ringbuffer.h	/^    int length;$/;"	m	struct:__anon2
+length	src/lcthw/sarray.h	/^    int length;$/;"	m	struct:SuffixArray
+list	tests/list_tests.c	/^static List *list = NULL;$/;"	v	file:
+load_routes	bin/urlor.c	/^TSTree *load_routes(const char *file)$/;"	f
+log_err	src/lcthw/dbg.h	17;"	d
+log_info	src/lcthw/dbg.h	25;"	d
+log_warn	src/lcthw/dbg.h	21;"	d
+longBstring	tests/bstr_tests.c	/^struct tagbstring longBstring =$/;"	v	typeref:struct:tagbstring
+low	src/lcthw/tstree.h	/^    struct TSTree *low;$/;"	m	struct:TSTree	typeref:struct:TSTree::TSTree
+main	bin/netclient.c	/^int main(int argc, char *argv[])$/;"	f
+main	bin/urlor.c	/^int main(int argc, char *argv[])$/;"	f
+main	tests/bstr_tests.c	/^int main(int argc, char *argv[]) $/;"	f
+make_random	tests/radixmap_tests.c	/^static int make_random(RadixMap * map)$/;"	f	file:
+map	tests/bstree_tests.c	/^BSTree *map = NULL;$/;"	v
+map	tests/hashmap_tests.c	/^Hashmap *map = NULL;$/;"	v
+match_url	bin/urlor.c	/^bstring match_url(TSTree * routes, bstring url)$/;"	f
+max	src/lcthw/darray.h	/^    int max;$/;"	m	struct:DArray
+max	src/lcthw/radixmap.h	/^    size_t max;$/;"	m	struct:RadixMap
+max	src/lcthw/stats.h	/^    double max;$/;"	m	struct:Stats
+maxBuffSz	src/lcthw/bstrlib.c	/^    int maxBuffSz;$/;"	m	struct:bStream	file:
+min	src/lcthw/stats.h	/^    double min;$/;"	m	struct:Stats
+mlen	src/lcthw/bstrlib.h	/^    int mlen;$/;"	m	struct:tagbstring
+mlen	src/lcthw/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+mu_assert	tests/minunit.h	11;"	d
+mu_run_test	tests/minunit.h	12;"	d
+mu_suite_start	tests/minunit.h	9;"	d
+n	src/lcthw/stats.h	/^    unsigned long n;$/;"	m	struct:Stats
+needle	src/lcthw/string_algos.h	/^    const unsigned char *needle;$/;"	m	struct:StringScanner
+next	src/lcthw/list.h	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+nlen	src/lcthw/string_algos.h	/^    ssize_t nlen;$/;"	m	struct:StringScanner
+node	tests/tstree_tests.c	/^TSTree *node = NULL;$/;"	v
+nonblock	bin/netclient.c	/^int nonblock(int fd)$/;"	f
+ofs	tests/bstr_tests.c	/^    int ofs;$/;"	m	struct:emuFile	file:
+ofs	tests/bstr_tests.c	/^    int ofs;$/;"	m	struct:sbstr	file:
+parent	src/lcthw/bstree.h	/^    struct BSTreeNode *parent;$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode::BSTreeNode
+parm	src/lcthw/bstrlib.c	/^    void * parm;		\/* The stream handle for core stream *\/$/;"	m	struct:bStream	file:
+prev	src/lcthw/list.h	/^    struct ListNode *prev;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+qty	src/lcthw/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+queue	tests/queue_tests.c	/^static Queue *queue = NULL;$/;"	v	file:
+radix_sort	src/lcthw/radixmap.c	/^static inline void radix_sort(short offset, uint64_t max,$/;"	f	file:
+raw	src/lcthw/radixmap.h	/^    uint64_t raw;$/;"	m	union:RMElement
+readFnPtr	src/lcthw/bstrlib.c	/^    bNread readFnPtr;	\/* fread compatible fnptr for core stream *\/$/;"	m	struct:bStream	file:
+read_line	bin/urlor.c	/^bstring read_line(const char *prompt)$/;"	f
+read_some	bin/netclient.c	/^int read_some(RingBuffer * buffer, int fd, int is_socket)$/;"	f
+reverse	tests/tstree_tests.c	/^char *reverse = "VALUER";$/;"	v
+right	src/lcthw/bstree.h	/^    struct BSTreeNode *right;$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode::BSTreeNode
+root	src/lcthw/bstree.h	/^    BSTreeNode *root;$/;"	m	struct:BSTree
+rot	tests/bstr_tests.c	/^static int rot = 0;$/;"	v	file:
+run_sort_test	tests/darray_algos_tests.c	/^char *run_sort_test(int (*func) (DArray *, DArray_compare),$/;"	f
+samples	tests/stats_tests.c	/^double samples[] = {$/;"	v
+sarry	tests/sarray_tests.c	/^static SuffixArray *sarry = NULL;$/;"	v	file:
+sbstr	tests/bstr_tests.c	/^struct sbstr {$/;"	s	file:
+sc	tests/bstr_tests.c	/^    unsigned char sc;$/;"	m	struct:tagBss	file:
+sentinel	src/lcthw/dbg.h	31;"	d
+setInCharField	src/lcthw/bstrlib.c	1281;"	d	file:
+setInCharField	src/lcthw/bstrlib.c	1291;"	d	file:
+shortBstring	tests/bstr_tests.c	/^struct tagbstring shortBstring = bsStatic("bogus");$/;"	v	typeref:struct:tagbstring
+skip_chars	src/lcthw/string_algos.h	/^    size_t skip_chars[UCHAR_MAX + 1];$/;"	m	struct:StringScanner
+slen	src/lcthw/bstrlib.h	/^    int slen;$/;"	m	struct:tagbstring
+snapUpSize	src/lcthw/bstrlib.c	/^static int snapUpSize (int i) {$/;"	f	file:
+source	src/lcthw/sarray.h	/^    char *source;$/;"	m	struct:SuffixArray
+splitchar	src/lcthw/tstree.h	/^    char splitchar;$/;"	m	struct:TSTree
+stack	tests/stack_tests.c	/^static Stack *stack = NULL;$/;"	v	file:
+start	src/lcthw/ringbuffer.h	/^    int start;$/;"	m	struct:__anon2
+string_algos_h	src/lcthw/string_algos.h	2;"	d
+sum	src/lcthw/stats.h	/^    double sum;$/;"	m	struct:Stats
+sumsq	src/lcthw/stats.h	/^    double sumsq;$/;"	m	struct:Stats
+tagBss	tests/bstr_tests.c	/^struct tagBss {$/;"	s	file:
+tagbstring	src/lcthw/bstrlib.h	/^struct tagbstring {$/;"	s
+temp	src/lcthw/radixmap.h	/^    RMElement *temp;$/;"	m	struct:RadixMap
+test	tests/sarray_tests.c	/^static char test[] = "abracadabra";$/;"	v	file:
+test0	tests/bstr_tests.c	/^static int test0(void)$/;"	f	file:
+test0_0	tests/bstr_tests.c	/^}  static int test0_0(const char *s, const char *res)$/;"	f	file:
+test0_1	tests/bstr_tests.c	/^static int test0_1(const char *s, int len, const char *res)$/;"	f	file:
+test1	tests/bstr_tests.c	/^static int test1(void)$/;"	f	file:
+test1	tests/bstree_tests.c	/^struct tagbstring test1 = bsStatic("test data 1");$/;"	v	typeref:struct:tagbstring
+test1	tests/hashmap_algos_tests.c	/^struct tagbstring test1 = bsStatic("test data 1");$/;"	v	typeref:struct:tagbstring
+test1	tests/hashmap_tests.c	/^struct tagbstring test1 = bsStatic("test data 1");$/;"	v	typeref:struct:tagbstring
+test1	tests/list_tests.c	/^char *test1 = "test1 data";$/;"	v
+test1	tests/tstree_tests.c	/^struct tagbstring test1 = bsStatic("TEST");$/;"	v	typeref:struct:tagbstring
+test10	tests/bstr_tests.c	/^static int test10(void)$/;"	f	file:
+test10_0	tests/bstr_tests.c	/^static int test10_0(bstring b, int res, int nochange)$/;"	f	file:
+test11	tests/bstr_tests.c	/^static int test11(void)$/;"	f	file:
+test11_0	tests/bstr_tests.c	/^static int test11_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test11_1	tests/bstr_tests.c	/^static int test11_1(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test12	tests/bstr_tests.c	/^static int test12(void)$/;"	f	file:
+test12_0	tests/bstr_tests.c	/^static int test12_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test12_1	tests/bstr_tests.c	/^static int test12_1(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test13	tests/bstr_tests.c	/^static int test13(void)$/;"	f	file:
+test13_0	tests/bstr_tests.c	/^static int test13_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test14	tests/bstr_tests.c	/^static int test14(void)$/;"	f	file:
+test14_0	tests/bstr_tests.c	/^static int test14_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test15	tests/bstr_tests.c	/^static int test15(void)$/;"	f	file:
+test15_0	tests/bstr_tests.c	/^static int test15_0(bstring b0, int pos, const_bstring b1,$/;"	f	file:
+test16	tests/bstr_tests.c	/^static int test16(void)$/;"	f	file:
+test16_0	tests/bstr_tests.c	/^static int test16_0(bstring b0, int pos, const_bstring b1,$/;"	f	file:
+test17	tests/bstr_tests.c	/^static int test17(void)$/;"	f	file:
+test17_0	tests/bstr_tests.c	/^static int test17_0(bstring s1, int pos, int len, char *res)$/;"	f	file:
+test18	tests/bstr_tests.c	/^static int test18(void)$/;"	f	file:
+test18_0	tests/bstr_tests.c	/^static int test18_0(bstring b, int len, int res, int mlen)$/;"	f	file:
+test18_1	tests/bstr_tests.c	1315;"	d	file:
+test18_1_int	tests/bstr_tests.c	/^static int test18_1_int(bstring b, int len, int res, int mlen,$/;"	f	file:
+test19	tests/bstr_tests.c	/^static int test19(void)$/;"	f	file:
+test19_0	tests/bstr_tests.c	/^static int test19_0(bstring b, int len, const char *res, int erv)$/;"	f	file:
+test1_0	tests/bstr_tests.c	/^static int test1_0(const void *blk, int len, const char *res)$/;"	f	file:
+test2	tests/bstr_tests.c	/^static int test2(void)$/;"	f	file:
+test2	tests/bstree_tests.c	/^struct tagbstring test2 = bsStatic("test data 2");$/;"	v	typeref:struct:tagbstring
+test2	tests/hashmap_algos_tests.c	/^struct tagbstring test2 = bsStatic("test data 2");$/;"	v	typeref:struct:tagbstring
+test2	tests/hashmap_tests.c	/^struct tagbstring test2 = bsStatic("test data 2");$/;"	v	typeref:struct:tagbstring
+test2	tests/list_tests.c	/^char *test2 = "test2 data";$/;"	v
+test2	tests/sarray_tests.c	/^static char test2[] = "acadabra";$/;"	v	file:
+test2	tests/tstree_tests.c	/^struct tagbstring test2 = bsStatic("TEST2");$/;"	v	typeref:struct:tagbstring
+test20	tests/bstr_tests.c	/^static int test20(void)$/;"	f	file:
+test21	tests/bstr_tests.c	/^static int test21(void)$/;"	f	file:
+test21_0	tests/bstr_tests.c	/^static int test21_0(bstring b, char sc, int ns)$/;"	f	file:
+test21_1	tests/bstr_tests.c	/^static int test21_1(bstring b, const_bstring sc, int ns)$/;"	f	file:
+test22	tests/bstr_tests.c	/^static int test22(void)$/;"	f	file:
+test22_0	tests/bstr_tests.c	/^static int test22_0(const_bstring b, const_bstring sep, int ns, ...)$/;"	f	file:
+test23	tests/bstr_tests.c	/^static int test23(void)$/;"	f	file:
+test23_aux_open	tests/bstr_tests.c	/^static int test23_aux_open(struct sbstr *sb, bstring b)$/;"	f	file:
+test23_aux_read	tests/bstr_tests.c	/^static size_t test23_aux_read(void *buff, size_t elsize,$/;"	f	file:
+test23_aux_splitcb	tests/bstr_tests.c	/^static int test23_aux_splitcb(void *parm, int ofs,$/;"	f	file:
+test23_aux_splitcbx	tests/bstr_tests.c	/^static int test23_aux_splitcbx(void *parm, int ofs,$/;"	f	file:
+test24	tests/bstr_tests.c	/^static int test24(void)$/;"	f	file:
+test24_0	tests/bstr_tests.c	/^static int test24_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test25	tests/bstr_tests.c	/^static int test25(void)$/;"	f	file:
+test25_0	tests/bstr_tests.c	/^static int test25_0(bstring s1, int pos, const_bstring s2, int res)$/;"	f	file:
+test26	tests/bstr_tests.c	/^static int test26(void)$/;"	f	file:
+test26_0	tests/bstr_tests.c	/^static int test26_0(bstring b0, int pos, int len, const_bstring b1,$/;"	f	file:
+test27	tests/bstr_tests.c	/^static int test27(void)$/;"	f	file:
+test27_0	tests/bstr_tests.c	/^static int test27_0(bstring b0, const_bstring b1, const char *res)$/;"	f	file:
+test28	tests/bstr_tests.c	/^static int test28(void)$/;"	f	file:
+test28_0	tests/bstr_tests.c	/^static int test28_0(bstring s1, int c, int res)$/;"	f	file:
+test28_1	tests/bstr_tests.c	/^static int test28_1(bstring s1, int c, int res)$/;"	f	file:
+test28_2	tests/bstr_tests.c	/^static int test28_2(bstring s1, int c, int pos, int res)$/;"	f	file:
+test28_3	tests/bstr_tests.c	/^static int test28_3(bstring s1, int c, int pos, int res)$/;"	f	file:
+test29	tests/bstr_tests.c	/^static int test29(void)$/;"	f	file:
+test29_0	tests/bstr_tests.c	/^static int test29_0(bstring b0, char *s, const char *res)$/;"	f	file:
+test2_0	tests/bstr_tests.c	/^static int test2_0(const_bstring b, char z, const unsigned char *res)$/;"	f	file:
+test3	tests/bstr_tests.c	/^static int test3(void)$/;"	f	file:
+test3	tests/bstree_tests.c	/^struct tagbstring test3 = bsStatic("xest data 3");$/;"	v	typeref:struct:tagbstring
+test3	tests/hashmap_algos_tests.c	/^struct tagbstring test3 = bsStatic("xest data 3");$/;"	v	typeref:struct:tagbstring
+test3	tests/hashmap_tests.c	/^struct tagbstring test3 = bsStatic("xest data 3");$/;"	v	typeref:struct:tagbstring
+test3	tests/list_tests.c	/^char *test3 = "test3 data";$/;"	v
+test3	tests/tstree_tests.c	/^struct tagbstring test3 = bsStatic("TSET");$/;"	v	typeref:struct:tagbstring
+test30	tests/bstr_tests.c	/^static int test30(void)$/;"	f	file:
+test30_0	tests/bstr_tests.c	/^static int test30_0(bstring b0, const unsigned char *s, int len,$/;"	f	file:
+test31	tests/bstr_tests.c	/^static int test31(void)$/;"	f	file:
+test31_0	tests/bstr_tests.c	/^static int test31_0(bstring b0, const_bstring find,$/;"	f	file:
+test31_1	tests/bstr_tests.c	/^static int test31_1(bstring b0, const_bstring find,$/;"	f	file:
+test32	tests/bstr_tests.c	/^static int test32(void)$/;"	f	file:
+test32_0	tests/bstr_tests.c	/^static int test32_0(const_bstring b, const char *s, int res)$/;"	f	file:
+test32_1	tests/bstr_tests.c	/^static int test32_1(const_bstring b, const char *s, int res)$/;"	f	file:
+test33	tests/bstr_tests.c	/^static int test33(void)$/;"	f	file:
+test33_0	tests/bstr_tests.c	/^static int test33_0(bstring b0, const char *res)$/;"	f	file:
+test34	tests/bstr_tests.c	/^static int test34(void)$/;"	f	file:
+test34_0	tests/bstr_tests.c	/^static int test34_0(bstring b0, const char *res)$/;"	f	file:
+test35	tests/bstr_tests.c	/^static int test35(void)$/;"	f	file:
+test35_0	tests/bstr_tests.c	/^static int test35_0(const_bstring b0, const_bstring b1, int res)$/;"	f	file:
+test36	tests/bstr_tests.c	/^static int test36(void)$/;"	f	file:
+test36_0	tests/bstr_tests.c	/^static int test36_0(const_bstring b0, const_bstring b1, int n,$/;"	f	file:
+test37	tests/bstr_tests.c	/^static int test37(void)$/;"	f	file:
+test37_0	tests/bstr_tests.c	/^static int test37_0(const_bstring b0, const_bstring b1, int res)$/;"	f	file:
+test38	tests/bstr_tests.c	/^static int test38(void)$/;"	f	file:
+test38_aux_bNgetc	tests/bstr_tests.c	/^static int test38_aux_bNgetc(struct emuFile *f)$/;"	f	file:
+test38_aux_bNopen	tests/bstr_tests.c	/^static int test38_aux_bNopen(struct emuFile *f, bstring b)$/;"	f	file:
+test38_aux_bNread	tests/bstr_tests.c	/^static size_t test38_aux_bNread(void *buff, size_t elsize,$/;"	f	file:
+test39	tests/bstr_tests.c	/^static int test39(void)$/;"	f	file:
+test39_0	tests/bstr_tests.c	/^static int test39_0(const_bstring b, const_bstring lt,$/;"	f	file:
+test3_0	tests/bstr_tests.c	/^static int test3_0(const_bstring b)$/;"	f	file:
+test4	tests/bstr_tests.c	/^static int test4(void)$/;"	f	file:
+test4	tests/tstree_tests.c	/^struct tagbstring test4 = bsStatic("T");$/;"	v	typeref:struct:tagbstring
+test40	tests/bstr_tests.c	/^static int test40(void)$/;"	f	file:
+test40_0	tests/bstr_tests.c	/^static int test40_0(bstring b0, const_bstring b1, int left, int len,$/;"	f	file:
+test41	tests/bstr_tests.c	/^static int test41(void)$/;"	f	file:
+test41_0	tests/bstr_tests.c	/^static int test41_0(bstring b1, int left, int len, const char *res)$/;"	f	file:
+test42	tests/bstr_tests.c	/^static int test42(void)$/;"	f	file:
+test42_0	tests/bstr_tests.c	/^static int test42_0(const_bstring bi, int len, const char *res)$/;"	f	file:
+test43	tests/bstr_tests.c	/^static int test43(void)$/;"	f	file:
+test44	tests/bstr_tests.c	/^static int test44(void)$/;"	f	file:
+test44_0	tests/bstr_tests.c	/^static int test44_0(const char *str)$/;"	f	file:
+test45	tests/bstr_tests.c	/^static int test45(void)$/;"	f	file:
+test45_0	tests/bstr_tests.c	/^static int test45_0(const char *str)$/;"	f	file:
+test46	tests/bstr_tests.c	/^static int test46(void)$/;"	f	file:
+test46_0	tests/bstr_tests.c	/^static int test46_0(const_bstring r, bstring b, int count,$/;"	f	file:
+test46_1	tests/bstr_tests.c	/^static int test46_1(bstring b, const char *fmt, const_bstring r, ...)$/;"	f	file:
+test4_0	tests/bstr_tests.c	/^static int test4_0(const_bstring b, int left, int len,$/;"	f	file:
+test5	tests/bstr_tests.c	/^static int test5(void)$/;"	f	file:
+test5_0	tests/bstr_tests.c	/^static int test5_0(bstring b0, const_bstring b1, const char *res)$/;"	f	file:
+test5_1	tests/bstr_tests.c	/^static int test5_1(void)$/;"	f	file:
+test6	tests/bstr_tests.c	/^static int test6(void)$/;"	f	file:
+test6_0	tests/bstr_tests.c	/^static int test6_0(bstring b, char c, const char *res)$/;"	f	file:
+test7	tests/bstr_tests.c	558;"	d	file:
+test7x8	tests/bstr_tests.c	/^static int test7x8(char *fnname,$/;"	f	file:
+test7x8_0	tests/bstr_tests.c	/^static int test7x8_0(char *fnname,$/;"	f	file:
+test8	tests/bstr_tests.c	559;"	d	file:
+test9	tests/bstr_tests.c	/^static int test9(void)$/;"	f	file:
+test9_0	tests/bstr_tests.c	/^static int test9_0(const_bstring b0, const_bstring b1, int n, int res)$/;"	f	file:
+testInCharField	src/lcthw/bstrlib.c	1280;"	d	file:
+testInCharField	src/lcthw/bstrlib.c	1290;"	d	file:
+test_adler32	tests/hashmap_algos_tests.c	/^char *test_adler32()$/;"	f
+test_binstr_performance	tests/string_algos_tests.c	/^char *test_binstr_performance()$/;"	f
+test_bubble_sort	tests/list_algos_tests.c	/^char *test_bubble_sort()$/;"	f
+test_create	tests/bstree_tests.c	/^char *test_create()$/;"	f
+test_create	tests/darray_tests.c	/^char *test_create()$/;"	f
+test_create	tests/hashmap_tests.c	/^char *test_create()$/;"	f
+test_create	tests/list_tests.c	/^char *test_create()$/;"	f
+test_create	tests/queue_tests.c	/^char *test_create()$/;"	f
+test_create	tests/ringbuffer_tests.c	/^char *test_create()$/;"	f
+test_create	tests/sarray_tests.c	/^char *test_create()$/;"	f
+test_create	tests/stack_tests.c	/^char *test_create()$/;"	f
+test_delete	tests/bstree_tests.c	/^char *test_delete()$/;"	f
+test_delete	tests/hashmap_tests.c	/^char *test_delete()$/;"	f
+test_destroy	tests/bstree_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/darray_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/hashmap_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/list_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/queue_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/ringbuffer_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/sarray_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/stack_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/tstree_tests.c	/^char *test_destroy()$/;"	f
+test_distribution	tests/hashmap_algos_tests.c	/^char *test_distribution()$/;"	f
+test_djb	tests/hashmap_algos_tests.c	/^char *test_djb()$/;"	f
+test_expand_contract	tests/darray_tests.c	/^char *test_expand_contract()$/;"	f
+test_find_and_scan	tests/string_algos_tests.c	/^char *test_find_and_scan()$/;"	f
+test_find_performance	tests/string_algos_tests.c	/^char *test_find_performance()$/;"	f
+test_find_suffix	tests/sarray_tests.c	/^char *test_find_suffix()$/;"	f
+test_fnv1a	tests/hashmap_algos_tests.c	/^char *test_fnv1a()$/;"	f
+test_fuzzing	tests/bstree_tests.c	/^char *test_fuzzing()$/;"	f
+test_get	tests/darray_tests.c	/^char *test_get()$/;"	f
+test_get_set	tests/bstree_tests.c	/^char *test_get_set()$/;"	f
+test_get_set	tests/hashmap_tests.c	/^char *test_get_set()$/;"	f
+test_heapsort	tests/darray_algos_tests.c	/^char *test_heapsort()$/;"	f
+test_insert	tests/tstree_tests.c	/^char *test_insert()$/;"	f
+test_merge_sort	tests/list_algos_tests.c	/^char *test_merge_sort()$/;"	f
+test_mergesort	tests/darray_algos_tests.c	/^char *test_mergesort()$/;"	f
+test_new	tests/darray_tests.c	/^char *test_new()$/;"	f
+test_operations	tests/radixmap_tests.c	/^static char *test_operations()$/;"	f	file:
+test_operations	tests/stats_tests.c	/^char *test_operations()$/;"	f
+test_push_pop	tests/darray_tests.c	/^char *test_push_pop()$/;"	f
+test_push_pop	tests/list_tests.c	/^char *test_push_pop()$/;"	f
+test_push_pop	tests/stack_tests.c	/^char *test_push_pop()$/;"	f
+test_qsort	tests/darray_algos_tests.c	/^char *test_qsort()$/;"	f
+test_read_write	tests/ringbuffer_tests.c	/^char *test_read_write()$/;"	f
+test_recreate	tests/stats_tests.c	/^char *test_recreate()$/;"	f
+test_remove	tests/darray_tests.c	/^char *test_remove()$/;"	f
+test_remove	tests/list_tests.c	/^char *test_remove()$/;"	f
+test_scan_performance	tests/string_algos_tests.c	/^char *test_scan_performance()$/;"	f
+test_search	tests/radixmap_tests.c	/^static int test_search(RadixMap * map)$/;"	f	file:
+test_search_exact	tests/tstree_tests.c	/^char *test_search_exact()$/;"	f
+test_search_prefix	tests/tstree_tests.c	/^char *test_search_prefix()$/;"	f
+test_send_recv	tests/queue_tests.c	/^char *test_send_recv()$/;"	f
+test_set	tests/darray_tests.c	/^char *test_set()$/;"	f
+test_shift	tests/list_tests.c	/^char *test_shift()$/;"	f
+test_traverse	tests/bstree_tests.c	/^char *test_traverse()$/;"	f
+test_traverse	tests/hashmap_tests.c	/^char *test_traverse()$/;"	f
+test_traverse	tests/tstree_tests.c	/^char *test_traverse()$/;"	f
+test_unshift	tests/list_tests.c	/^char *test_unshift()$/;"	f
+testcmp	tests/darray_algos_tests.c	/^int testcmp(char **a, char **b)$/;"	f
+tests	tests/queue_tests.c	/^char *tests[] = { "test1 data", "test2 data", "test3 data" };$/;"	v
+tests	tests/stack_tests.c	/^char *tests[] = { "test1 data", "test2 data", "test3 data" };$/;"	v
+tests_run	tests/minunit.h	/^int tests_run;$/;"	v
+traverse_called	tests/bstree_tests.c	/^static int traverse_called = 0;$/;"	v	file:
+traverse_called	tests/hashmap_tests.c	/^static int traverse_called = 0;$/;"	v	file:
+traverse_count	tests/tstree_tests.c	/^int traverse_count = 0;$/;"	v
+traverse_fail_cb	tests/bstree_tests.c	/^static int traverse_fail_cb(BSTreeNode * node)$/;"	f	file:
+traverse_fail_cb	tests/hashmap_tests.c	/^static int traverse_fail_cb(HashmapNode * node)$/;"	f	file:
+traverse_good_cb	tests/bstree_tests.c	/^static int traverse_good_cb(BSTreeNode * node)$/;"	f	file:
+traverse_good_cb	tests/hashmap_tests.c	/^static int traverse_good_cb(HashmapNode * node)$/;"	f	file:
+upcase	src/lcthw/bstrlib.c	559;"	d	file:
+val1	tests/darray_tests.c	/^static int *val1 = NULL;$/;"	v	file:
+val2	tests/darray_tests.c	/^static int *val2 = NULL;$/;"	v	file:
+value	src/lcthw/list.h	/^    void *value;$/;"	m	struct:ListNode
+value	src/lcthw/radixmap.h	/^        uint32_t value;$/;"	m	struct:RMElement::__anon1
+value	src/lcthw/tstree.h	/^    void *value;$/;"	m	struct:TSTree
+value2	tests/tstree_tests.c	/^char *value2 = "VALUE2";$/;"	v
+value4	tests/tstree_tests.c	/^char *value4 = "VALUE4";$/;"	v
+valueA	tests/tstree_tests.c	/^char *valueA = "VALUEA";$/;"	v
+valueB	tests/tstree_tests.c	/^char *valueB = "VALUEB";$/;"	v
+values	tests/list_algos_tests.c	/^char *values[] = { "XXXX", "1234", "abcd", "xjvef", "NDSS" };$/;"	v
+write_some	bin/netclient.c	/^int write_some(RingBuffer * buffer, int fd, int is_socket)$/;"	f
+wspace	src/lcthw/bstrlib.c	561;"	d	file:
+xxxxxBstring	tests/bstr_tests.c	/^struct tagbstring xxxxxBstring = bsStatic("xxxxx");$/;"	v	typeref:struct:tagbstring
