@@ -1,0 +1,190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ByteOf	src/lcthw/radixmap.c	39;"	d	file:
+CFLAGS	Makefile	/^CFLAGS=-g -O2 -Wall -Wextra -Isrc -rdynamic -DNDEBUG $(OPTFLAGS)$/;"	m
+CFLAGS	Makefile	/^dev: CFLAGS=-g -Wall -Isrc -Wall -Wextra $(OPTFLAGS)$/;"	m
+DArray	src/lcthw/darray.h	/^typedef struct DArray {$/;"	s
+DArray	src/lcthw/darray.h	/^} DArray;$/;"	t	typeref:struct:DArray
+DArray_clear	src/lcthw/darray.c	/^void DArray_clear(DArray * array)$/;"	f
+DArray_clear_destroy	src/lcthw/darray.c	/^void DArray_clear_destroy(DArray * array)$/;"	f
+DArray_compare	src/lcthw/darray_algos.h	/^typedef int (*DArray_compare) (const void *a, const void *b);$/;"	t
+DArray_contract	src/lcthw/darray.c	/^int DArray_contract(DArray * array)$/;"	f
+DArray_count	src/lcthw/darray.h	27;"	d
+DArray_create	src/lcthw/darray.c	/^DArray *DArray_create(size_t element_size, size_t initial_max)$/;"	f
+DArray_destroy	src/lcthw/darray.c	/^void DArray_destroy(DArray * array)$/;"	f
+DArray_end	src/lcthw/darray.h	26;"	d
+DArray_expand	src/lcthw/darray.c	/^int DArray_expand(DArray * array)$/;"	f
+DArray_first	src/lcthw/darray.h	25;"	d
+DArray_free	src/lcthw/darray.h	68;"	d
+DArray_get	src/lcthw/darray.h	/^static inline void *DArray_get(DArray *array, int i)$/;"	f
+DArray_heapsort	src/lcthw/darray_algos.c	/^int DArray_heapsort(DArray *array, DArray_compare cmp)$/;"	f
+DArray_last	src/lcthw/darray.h	24;"	d
+DArray_max	src/lcthw/darray.h	28;"	d
+DArray_mergesort	src/lcthw/darray_algos.c	/^int DArray_mergesort(DArray *array, DArray_compare cmp)$/;"	f
+DArray_new	src/lcthw/darray.h	/^static inline void *DArray_new(DArray * array)$/;"	f
+DArray_pop	src/lcthw/darray.c	/^void *DArray_pop(DArray * array)$/;"	f
+DArray_push	src/lcthw/darray.c	/^int DArray_push(DArray * array, void *el)$/;"	f
+DArray_qsort	src/lcthw/darray_algos.c	/^int DArray_qsort(DArray *array, DArray_compare cmp)$/;"	f
+DArray_remove	src/lcthw/darray.h	/^static inline void *DArray_remove(DArray * array, int i)$/;"	f
+DArray_resize	src/lcthw/darray.c	/^static inline int DArray_resize(DArray *array, size_t newsize)$/;"	f	file:
+DArray_set	src/lcthw/darray.h	/^static inline void DArray_set(DArray * array, int i, void *el)$/;"	f
+DEFAULT_EXPAND_RATE	src/lcthw/darray.h	30;"	d
+LDFLAGS	Makefile	/^LDFLAGS=$(OPTLIBS)$/;"	m
+LIST_FOREACH	src/lcthw/list.h	41;"	d
+List	src/lcthw/list.h	/^typedef struct List {$/;"	s
+List	src/lcthw/list.h	/^} List;$/;"	t	typeref:struct:List
+ListNode	src/lcthw/list.h	/^typedef struct ListNode {$/;"	s
+ListNode	src/lcthw/list.h	/^} ListNode;$/;"	t	typeref:struct:ListNode
+ListNode_swap	src/lcthw/list_algos.c	/^inline void ListNode_swap(ListNode * a, ListNode * b)$/;"	f
+List_bubble_sort	src/lcthw/list_algos.c	/^int List_bubble_sort(List * list, List_compare cmp)$/;"	f
+List_clear	src/lcthw/list.c	/^void List_clear(List * list)$/;"	f
+List_clear_destroy	src/lcthw/list.c	/^void List_clear_destroy(List * list)$/;"	f
+List_compare	src/lcthw/list_algos.h	/^typedef int (*List_compare) (const void *a, const void *b);$/;"	t
+List_copy	src/lcthw/list.c	/^void List_copy(List * src, List * dst)$/;"	f
+List_count	src/lcthw/list.h	25;"	d
+List_create	src/lcthw/list.c	/^List *List_create()$/;"	f
+List_destroy	src/lcthw/list.c	/^void List_destroy(List * list)$/;"	f
+List_first	src/lcthw/list.h	26;"	d
+List_join	src/lcthw/list.c	/^List *List_join(List * a, List * b)$/;"	f
+List_last	src/lcthw/list.h	27;"	d
+List_merge	src/lcthw/list_algos.c	/^inline List *List_merge(List * left, List * right, List_compare cmp)$/;"	f
+List_merge_sort	src/lcthw/list_algos.c	/^List *List_merge_sort(List * list, List_compare cmp)$/;"	f
+List_pop	src/lcthw/list.c	/^void *List_pop(List * list)$/;"	f
+List_push	src/lcthw/list.c	/^void List_push(List * list, void *value)$/;"	f
+List_remove	src/lcthw/list.c	/^void *List_remove(List * list, ListNode * node)$/;"	f
+List_shift	src/lcthw/list.c	/^void *List_shift(List * list)$/;"	f
+List_split	src/lcthw/list.c	/^void List_split(List * a, List * b, List * c)$/;"	f
+List_unshift	src/lcthw/list.c	/^void List_unshift(List * list, void *value)$/;"	f
+NDEBUG	tests/minunit.h	1;"	d
+NUM_VALUES	tests/list_algos_tests.c	8;"	d	file:
+OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
+PREFIX	Makefile	/^PREFIX?=\/usr\/local$/;"	m
+Print	src/lcthw/list.c	/^void Print(List * list) $/;"	f
+RMElement	src/lcthw/radixmap.h	/^typedef union RMElement {$/;"	u
+RMElement	src/lcthw/radixmap.h	/^} RMElement;$/;"	t	typeref:union:RMElement
+RUN_TESTS	tests/minunit.h	15;"	d
+RadixMap	src/lcthw/radixmap.h	/^typedef struct RadixMap {$/;"	s
+RadixMap	src/lcthw/radixmap.h	/^} RadixMap;$/;"	t	typeref:struct:RadixMap
+RadixMap_add	src/lcthw/radixmap.c	/^int RadixMap_add(RadixMap * map, uint32_t key, uint32_t value)$/;"	f
+RadixMap_create	src/lcthw/radixmap.c	/^RadixMap *RadixMap_create(size_t max)$/;"	f
+RadixMap_delete	src/lcthw/radixmap.c	/^int RadixMap_delete(RadixMap * map, RMElement * el)$/;"	f
+RadixMap_destroy	src/lcthw/radixmap.c	/^void RadixMap_destroy(RadixMap * map)$/;"	f
+RadixMap_find	src/lcthw/radixmap.c	/^RMElement *RadixMap_find(RadixMap * map, uint32_t to_find)$/;"	f
+RadixMap_sort	src/lcthw/radixmap.c	/^void RadixMap_sort(RadixMap * map)$/;"	f
+SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+TARGET	Makefile	/^TARGET=build\/liblcthw.a$/;"	m
+TESTS	Makefile	/^TESTS=$(patsubst %.c,%,$(TEST_SRC))$/;"	m
+TEST_SRC	Makefile	/^TEST_SRC=$(wildcard tests\/*_tests.c)$/;"	m
+TYPE_FLOAT	ex35.c	/^    TYPE_FLOAT,$/;"	e	enum:__anon2	file:
+TYPE_INT	ex35.c	/^    TYPE_INT,$/;"	e	enum:__anon2	file:
+TYPE_STRING	ex35.c	/^    TYPE_STRING,$/;"	e	enum:__anon2	file:
+Variant	ex35.c	/^struct Variant {$/;"	s	file:
+Variant	ex35.c	/^typedef struct Variant Variant;$/;"	t	typeref:struct:Variant	file:
+VariantType	ex35.c	/^} VariantType;$/;"	t	typeref:enum:__anon2	file:
+Variant_print	ex35.c	/^void Variant_print(Variant * var)$/;"	f
+_DArray_h	src/lcthw/darray.h	2;"	d
+__dbg_h__	src/lcthw/dbg.h	2;"	d
+_minunit_h	tests/minunit.h	3;"	d
+all_tests	tests/darray_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/darray_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/darray_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/darray_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_algos_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/list_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/list_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/radixmap_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/radixmap_tests.c	/^char *all_tests()$/;"	f
+array	tests/darray_tests.c	/^static DArray *array = NULL;$/;"	v	file:
+as_float	ex35.c	/^        float as_float;$/;"	m	union:Variant::__anon3	file:
+as_integer	ex35.c	/^        int as_integer;$/;"	m	union:Variant::__anon3	file:
+as_string	ex35.c	/^        char *as_string;$/;"	m	union:Variant::__anon3	file:
+check	src/lcthw/dbg.h	28;"	d
+check_debug	src/lcthw/dbg.h	36;"	d
+check_mem	src/lcthw/dbg.h	34;"	d
+check_order	tests/radixmap_tests.c	/^static int check_order(RadixMap * map)$/;"	f	file:
+clean_errno	src/lcthw/dbg.h	15;"	d
+contents	src/lcthw/darray.h	/^	void **contents;$/;"	m	struct:DArray
+contents	src/lcthw/radixmap.h	/^	RMElement *contents;$/;"	m	struct:RadixMap
+count	src/lcthw/list.h	/^    int count;$/;"	m	struct:List
+counter	src/lcthw/radixmap.h	/^	uint32_t counter;$/;"	m	struct:RadixMap
+create_words	tests/darray_algos_tests.c	/^DArray *create_words()$/;"	f
+create_words	tests/list_algos_tests.c	/^List *create_words()$/;"	f
+darray_algos_h	src/lcthw/darray_algos.h	2;"	d
+data	ex35.c	/^    } data;$/;"	m	struct:Variant	typeref:union:Variant::__anon3	file:
+data	src/lcthw/radixmap.h	/^	} data;$/;"	m	union:RMElement	typeref:struct:RMElement::__anon1
+debug	src/lcthw/dbg.h	11;"	d
+debug	src/lcthw/dbg.h	9;"	d
+element_size	src/lcthw/darray.h	/^	size_t element_size;$/;"	m	struct:DArray
+end	src/lcthw/darray.h	/^	int end;$/;"	m	struct:DArray
+end	src/lcthw/radixmap.h	/^	size_t end;$/;"	m	struct:RadixMap
+expand_rate	src/lcthw/darray.h	/^	size_t expand_rate;$/;"	m	struct:DArray
+first	src/lcthw/list.h	/^    ListNode *first;$/;"	m	struct:List
+is_sorted	tests/darray_algos_tests.c	/^int is_sorted(DArray * array)$/;"	f
+is_sorted	tests/list_algos_tests.c	/^int is_sorted(List * words)$/;"	f
+key	src/lcthw/radixmap.h	/^		uint32_t key;$/;"	m	struct:RMElement::__anon1
+last	src/lcthw/list.h	/^    ListNode *last;$/;"	m	struct:List
+lcthw_List_algos_h	src/lcthw/list_algos.h	2;"	d
+lcthw_List_h	src/lcthw/list.h	2;"	d
+list	tests/list_tests.c	/^static List *list = NULL;$/;"	v	file:
+log_err	src/lcthw/dbg.h	17;"	d
+log_info	src/lcthw/dbg.h	25;"	d
+log_warn	src/lcthw/dbg.h	21;"	d
+main	ex35.c	/^int main(int argc, char *argv[])$/;"	f
+make_random	tests/radixmap_tests.c	/^static int make_random(RadixMap * map)$/;"	f	file:
+max	src/lcthw/darray.h	/^	int max;$/;"	m	struct:DArray
+max	src/lcthw/radixmap.h	/^	size_t max;$/;"	m	struct:RadixMap
+merge	src/lcthw/darray_algos.c	/^void merge(void **a, int low, int mid, int high, DArray_compare cmp) $/;"	f
+merge_sort	src/lcthw/darray_algos.c	/^void merge_sort(void **contents, int low, int high, DArray_compare cmp)$/;"	f
+mu_assert	tests/minunit.h	11;"	d
+mu_run_test	tests/minunit.h	12;"	d
+mu_suite_start	tests/minunit.h	9;"	d
+next	src/lcthw/list.h	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+prev	src/lcthw/list.h	/^    struct ListNode *prev;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+radix_sort	src/lcthw/radixmap.c	/^static inline void radix_sort(short offset, uint64_t max,$/;"	f	file:
+raw	src/lcthw/radixmap.h	/^	uint64_t raw;$/;"	m	union:RMElement
+run_sort_test	tests/darray_algos_tests.c	/^char *run_sort_test(int (*func) (DArray *, DArray_compare),$/;"	f
+sentinel	src/lcthw/dbg.h	31;"	d
+temp	src/lcthw/radixmap.h	/^	RMElement *temp;$/;"	m	struct:RadixMap
+test1	tests/list_tests.c	/^char *test1 = "test1 data";$/;"	v
+test2	tests/list_tests.c	/^char *test2 = "test2 data";$/;"	v
+test3	tests/list_tests.c	/^char *test3 = "test3 data";$/;"	v
+test4	tests/list_tests.c	/^char *test4 = "test4 data";$/;"	v
+test5	tests/list_tests.c	/^char *test5 = "test5 data";$/;"	v
+test6	tests/list_tests.c	/^char *test6 = "test6 data";$/;"	v
+test_bubble_sort	tests/list_algos_tests.c	/^char *test_bubble_sort()$/;"	f
+test_copy	tests/list_tests.c	/^char *test_copy()$/;"	f
+test_create	tests/darray_tests.c	/^char *test_create()$/;"	f
+test_create	tests/list_tests.c	/^char *test_create()$/;"	f
+test_destroy	tests/darray_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/list_tests.c	/^char *test_destroy()$/;"	f
+test_expand_contract	tests/darray_tests.c	/^char *test_expand_contract()$/;"	f
+test_get	tests/darray_tests.c	/^char *test_get()$/;"	f
+test_heapsort	tests/darray_algos_tests.c	/^char *test_heapsort()$/;"	f
+test_join	tests/list_tests.c	/^char *test_join()$/;"	f
+test_merge_sort	tests/list_algos_tests.c	/^char *test_merge_sort()$/;"	f
+test_mergesort	tests/darray_algos_tests.c	/^char *test_mergesort()$/;"	f
+test_new	tests/darray_tests.c	/^char *test_new()$/;"	f
+test_operations	tests/radixmap_tests.c	/^static char *test_operations()$/;"	f	file:
+test_push_pop	tests/darray_tests.c	/^char *test_push_pop()$/;"	f
+test_push_pop	tests/list_tests.c	/^char *test_push_pop()$/;"	f
+test_qsort	tests/darray_algos_tests.c	/^char *test_qsort()$/;"	f
+test_remove	tests/darray_tests.c	/^char *test_remove()$/;"	f
+test_remove	tests/list_tests.c	/^char *test_remove()$/;"	f
+test_search	tests/radixmap_tests.c	/^static int test_search(RadixMap * map)$/;"	f	file:
+test_set	tests/darray_tests.c	/^char *test_set()$/;"	f
+test_shift	tests/list_tests.c	/^char *test_shift()$/;"	f
+test_split	tests/list_tests.c	/^char *test_split()$/;"	f
+test_unshift	tests/list_tests.c	/^char *test_unshift()$/;"	f
+testcmp	tests/darray_algos_tests.c	/^int testcmp(char *a, char *b)$/;"	f
+tests_run	tests/minunit.h	/^int tests_run;$/;"	v
+type	ex35.c	/^    VariantType type;$/;"	m	struct:Variant	file:
+val1	tests/darray_tests.c	/^static int *val1 = NULL;$/;"	v	file:
+val2	tests/darray_tests.c	/^static int *val2 = NULL;$/;"	v	file:
+value	src/lcthw/list.h	/^    void *value;$/;"	m	struct:ListNode
+value	src/lcthw/radixmap.h	/^		uint32_t value;$/;"	m	struct:RMElement::__anon1
+values	tests/list_algos_tests.c	/^char *values[] = { "XXXX", "1234", "abcd", "xjvef", "NDSS" };$/;"	v

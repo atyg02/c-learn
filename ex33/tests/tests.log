@@ -1,0 +1,42 @@
+----
+RUNNING: tests/list_algos_tests
+
+1234 
+NDSS 
+XXXX 
+abcd 
+xjvef 
+
+XXXX 
+1234 
+abcd 
+xjvef 
+NDSS 
+
+1234 
+NDSS 
+XXXX 
+abcd 
+xjvef 
+ALL TESTS PASSED
+Tests run: 2
+----
+RUNNING: tests/list_tests
+
+test1 data 
+test2 data 
+
+test1 data 
+test2 data 
+test3 data 
+test4 data 
+test5 data 
+
+test1 data 
+test2 data 
+
+test3 data 
+test4 data 
+test5 data 
+ALL TESTS PASSED
+Tests run: 9
