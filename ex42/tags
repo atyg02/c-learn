@@ -113,10 +113,22 @@ List_split	src/lcthw/list.c	/^void List_split(List * a, List * b, List * c)$/;"	
 List_unshift	src/lcthw/list.c	/^void List_unshift(List * list, void *value)$/;"	f
 NDEBUG	src/lcthw/hashmap.c	1;"	d	file:
 NDEBUG	tests/minunit.h	1;"	d
+NUM_TESTS	tests/queue_tests.c	8;"	d	file:
+NUM_TESTS	tests/stack_tests.c	7;"	d	file:
 NUM_VALUES	tests/list_algos_tests.c	8;"	d	file:
 OBJECTS	Makefile	/^OBJECTS=$(patsubst %.c,%.o,$(SOURCES))$/;"	m
 PREFIX	Makefile	/^PREFIX?=\/usr\/local$/;"	m
 Print	src/lcthw/list.c	/^void Print(List * list) $/;"	f
+QUEUE_FOREACH	src/lcthw/queue.h	19;"	d
+Queue	src/lcthw/queue.h	/^typedef List Queue;$/;"	t
+Queue_clear	src/lcthw/queue.h	10;"	d
+Queue_clear_destroy	src/lcthw/queue.h	11;"	d
+Queue_count	src/lcthw/queue.h	16;"	d
+Queue_create	src/lcthw/queue.h	8;"	d
+Queue_destroy	src/lcthw/queue.h	9;"	d
+Queue_peek	src/lcthw/queue.h	17;"	d
+Queue_recv	src/lcthw/queue.h	14;"	d
+Queue_send	src/lcthw/queue.h	13;"	d
 RMElement	src/lcthw/radixmap.h	/^typedef union RMElement {$/;"	u
 RMElement	src/lcthw/radixmap.h	/^} RMElement;$/;"	t	typeref:union:RMElement
 RUN_TESTS	tests/minunit.h	15;"	d
@@ -129,8 +141,29 @@ RadixMap_destroy	src/lcthw/radixmap.c	/^void RadixMap_destroy(RadixMap * map)$/;
 RadixMap_find	src/lcthw/radixmap.c	/^RMElement *RadixMap_find(RadixMap * map, uint32_t to_find)$/;"	f
 RadixMap_sort	src/lcthw/radixmap.c	/^void RadixMap_sort(RadixMap * map)$/;"	f
 SOURCES	Makefile	/^SOURCES=$(wildcard src\/**\/*.c src\/*.c)$/;"	m
+STACK_FOREACH	src/lcthw/stack.h	20;"	d
+STACK_FOREACH	src/lcthw/stack_org.h	19;"	d
 START_VSNBUFF	src/lcthw/bstrlib.c	2756;"	d	file:
 START_VSNBUFF	src/lcthw/bstrlib.c	2772;"	d	file:
+Stack	src/lcthw/stack.h	/^typedef DArray Stack;$/;"	t
+Stack	src/lcthw/stack_org.h	/^typedef List Stack;$/;"	t
+Stack_clear	src/lcthw/stack.h	10;"	d
+Stack_clear	src/lcthw/stack_org.h	10;"	d
+Stack_clear_destroy	src/lcthw/stack.h	11;"	d
+Stack_clear_destroy	src/lcthw/stack_org.h	11;"	d
+Stack_count	src/lcthw/stack.h	18;"	d
+Stack_count	src/lcthw/stack_org.h	17;"	d
+Stack_create	src/lcthw/stack.h	8;"	d
+Stack_create	src/lcthw/stack_org.h	8;"	d
+Stack_destroy	src/lcthw/stack.h	9;"	d
+Stack_destroy	src/lcthw/stack_org.h	9;"	d
+Stack_get	src/lcthw/stack.h	16;"	d
+Stack_peek	src/lcthw/stack.h	15;"	d
+Stack_peek	src/lcthw/stack_org.h	15;"	d
+Stack_pop	src/lcthw/stack.h	14;"	d
+Stack_pop	src/lcthw/stack_org.h	14;"	d
+Stack_push	src/lcthw/stack.h	13;"	d
+Stack_push	src/lcthw/stack_org.h	13;"	d
 TARGET	Makefile	/^TARGET=build\/liblcthw.a$/;"	m
 TESTS	Makefile	/^TESTS=$(patsubst %.c,%,$(TEST_SRC))$/;"	m
 TEST_SRC	Makefile	/^TEST_SRC=$(wildcard tests\/*_tests.c)$/;"	m
@@ -146,6 +179,9 @@ _DArray_h	src/lcthw/darray.h	2;"	d
 __dbg_h__	src/lcthw/dbg.h	2;"	d
 _lcthw_BSTree_h	src/lcthw/bstree.h	2;"	d
 _lcthw_Hashmap_h	src/lcthw/hashmap.h	2;"	d
+_lcthw_Queue_h	src/lcthw/queue.h	2;"	d
+_lcthw_Stack_h	src/lcthw/stack.h	2;"	d
+_lcthw_Stack_h	src/lcthw/stack_org.h	2;"	d
 _minunit_h	tests/minunit.h	3;"	d
 all_tests	tests/bstree_tests.c	/^RUN_TESTS(all_tests);$/;"	v
 all_tests	tests/bstree_tests.c	/^char *all_tests()$/;"	f
@@ -159,8 +195,12 @@ all_tests	tests/list_algos_tests.c	/^RUN_TESTS(all_tests);$/;"	v
 all_tests	tests/list_algos_tests.c	/^char *all_tests()$/;"	f
 all_tests	tests/list_tests.c	/^RUN_TESTS(all_tests);$/;"	v
 all_tests	tests/list_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/queue_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/queue_tests.c	/^char *all_tests()$/;"	f
 all_tests	tests/radixmap_tests.c	/^RUN_TESTS(all_tests);$/;"	v
 all_tests	tests/radixmap_tests.c	/^char *all_tests()$/;"	f
+all_tests	tests/stack_tests.c	/^RUN_TESTS(all_tests);$/;"	v
+all_tests	tests/stack_tests.c	/^char *all_tests()$/;"	f
 array	tests/darray_tests.c	/^static DArray *array = NULL;$/;"	v	file:
 as_float	ex35.c	/^        float as_float;$/;"	m	union:Variant::__anon2	file:
 as_integer	ex35.c	/^        int as_integer;$/;"	m	union:Variant::__anon2	file:
@@ -385,6 +425,7 @@ parent	src/lcthw/bstree.h	/^    struct BSTreeNode *parent;$/;"	m	struct:BSTreeNo
 parm	src/lcthw/bstrlib.c	/^    void * parm;		\/* The stream handle for core stream *\/$/;"	m	struct:bStream	file:
 prev	src/lcthw/list.h	/^    struct ListNode *prev;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
 qty	src/lcthw/bstrlib.h	/^    int qty, mlen;$/;"	m	struct:bstrList
+queue	tests/queue_tests.c	/^static Queue *queue = NULL;$/;"	v	file:
 radix_sort	src/lcthw/radixmap.c	/^static inline void radix_sort(short offset, uint64_t max,$/;"	f	file:
 raw	src/lcthw/radixmap.h	/^	uint64_t raw;$/;"	m	union:RMElement
 readFnPtr	src/lcthw/bstrlib.c	/^    bNread readFnPtr;	\/* fread compatible fnptr for core stream *\/$/;"	m	struct:bStream	file:
@@ -396,6 +437,7 @@ setInCharField	src/lcthw/bstrlib.c	1281;"	d	file:
 setInCharField	src/lcthw/bstrlib.c	1291;"	d	file:
 slen	src/lcthw/bstrlib.h	/^    int slen;$/;"	m	struct:tagbstring
 snapUpSize	src/lcthw/bstrlib.c	/^static int snapUpSize (int i) {$/;"	f	file:
+stack	tests/stack_tests.c	/^static Stack *stack = NULL;$/;"	v	file:
 tagbstring	src/lcthw/bstrlib.h	/^struct tagbstring {$/;"	s
 temp	src/lcthw/radixmap.h	/^	RMElement *temp;$/;"	m	struct:RadixMap
 test1	tests/bstree_tests.c	/^struct tagbstring test1 = bsStatic("test data 1");$/;"	v	typeref:struct:tagbstring
@@ -418,12 +460,16 @@ test_create	tests/bstree_tests.c	/^char *test_create()$/;"	f
 test_create	tests/darray_tests.c	/^char *test_create()$/;"	f
 test_create	tests/hashmap_tests.c	/^char *test_create()$/;"	f
 test_create	tests/list_tests.c	/^char *test_create()$/;"	f
+test_create	tests/queue_tests.c	/^char *test_create()$/;"	f
+test_create	tests/stack_tests.c	/^char *test_create()$/;"	f
 test_delete	tests/bstree_tests.c	/^char *test_delete()$/;"	f
 test_delete	tests/hashmap_tests.c	/^char *test_delete()$/;"	f
 test_destroy	tests/bstree_tests.c	/^char *test_destroy()$/;"	f
 test_destroy	tests/darray_tests.c	/^char *test_destroy()$/;"	f
 test_destroy	tests/hashmap_tests.c	/^char *test_destroy()$/;"	f
 test_destroy	tests/list_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/queue_tests.c	/^char *test_destroy()$/;"	f
+test_destroy	tests/stack_tests.c	/^char *test_destroy()$/;"	f
 test_expand_contract	tests/darray_tests.c	/^char *test_expand_contract()$/;"	f
 test_fuzzing	tests/bstree_tests.c	/^char *test_fuzzing()$/;"	f
 test_get	tests/darray_tests.c	/^char *test_get()$/;"	f
@@ -437,10 +483,12 @@ test_new	tests/darray_tests.c	/^char *test_new()$/;"	f
 test_operations	tests/radixmap_tests.c	/^static char *test_operations()$/;"	f	file:
 test_push_pop	tests/darray_tests.c	/^char *test_push_pop()$/;"	f
 test_push_pop	tests/list_tests.c	/^char *test_push_pop()$/;"	f
+test_push_pop	tests/stack_tests.c	/^char *test_push_pop()$/;"	f
 test_qsort	tests/darray_algos_tests.c	/^char *test_qsort()$/;"	f
 test_remove	tests/darray_tests.c	/^char *test_remove()$/;"	f
 test_remove	tests/list_tests.c	/^char *test_remove()$/;"	f
 test_search	tests/radixmap_tests.c	/^static int test_search(RadixMap * map)$/;"	f	file:
+test_send_recv	tests/queue_tests.c	/^char *test_send_recv()$/;"	f
 test_set	tests/darray_tests.c	/^char *test_set()$/;"	f
 test_shift	tests/list_tests.c	/^char *test_shift()$/;"	f
 test_split	tests/list_tests.c	/^char *test_split()$/;"	f
@@ -448,6 +496,8 @@ test_traverse	tests/bstree_tests.c	/^char *test_traverse()$/;"	f
 test_traverse	tests/hashmap_tests.c	/^char *test_traverse()$/;"	f
 test_unshift	tests/list_tests.c	/^char *test_unshift()$/;"	f
 testcmp	tests/darray_algos_tests.c	/^int testcmp(char *a, char *b)$/;"	f
+tests	tests/queue_tests.c	/^char *tests[] = { "test1 data", "test2 data", "test3 data" } ;$/;"	v
+tests	tests/stack_tests.c	/^char *tests[] = { "test1 data", "test2 data", "test3 data"};$/;"	v
 tests_run	tests/minunit.h	/^int tests_run;$/;"	v
 traverse_called	tests/bstree_tests.c	/^static int traverse_called = 0;$/;"	v	file:
 traverse_called	tests/hashmap_tests.c	/^static int traverse_called = 0;$/;"	v	file:
